@@ -1,0 +1,186 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Demichelis2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=db27c1ba61d6ece0e849090d7a74daee}{%
+           family={Demichelis},
+           familyi={D\bibinitperiod},
+           given={Raffaella},
+           giveni={R\bibinitperiod}}}%
+        {{hash=55f24976c8cf44e0e70bf2694f11ae68}{%
+           family={Dovesi},
+           familyi={D\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc30fcaf683d592aa2ef8acb5436e3eb}
+      \strng{fullhash}{fc30fcaf683d592aa2ef8acb5436e3eb}
+      \strng{bibnamehash}{fc30fcaf683d592aa2ef8acb5436e3eb}
+      \strng{authorbibnamehash}{fc30fcaf683d592aa2ef8acb5436e3eb}
+      \strng{authornamehash}{fc30fcaf683d592aa2ef8acb5436e3eb}
+      \strng{authorfullhash}{fc30fcaf683d592aa2ef8acb5436e3eb}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{http://www.crystal.unito.it/documentation.pdf}}
+      \field{title}{{Discussion about some parts of the CRYSTAL code - Work in progress}}
+      \field{year}{2008}
+    \endentry
+    \entry{OpenACC2019}{online}{}
+      \name{author}{1}{}{%
+        {{hash=53239595824ead367f93ecc731dbbb92}{%
+           family={OpenACC},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{53239595824ead367f93ecc731dbbb92}
+      \strng{fullhash}{53239595824ead367f93ecc731dbbb92}
+      \strng{bibnamehash}{53239595824ead367f93ecc731dbbb92}
+      \strng{authorbibnamehash}{53239595824ead367f93ecc731dbbb92}
+      \strng{authornamehash}{53239595824ead367f93ecc731dbbb92}
+      \strng{authorfullhash}{53239595824ead367f93ecc731dbbb92}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Homepage | OpenACC}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.openacc.org/
+      \endverb
+      \verb{url}
+      \verb https://www.openacc.org/
+      \endverb
+    \endentry
+    \entry{Rivera-Almazo2021}{article}{}
+      \name{author}{11}{}{%
+        {{hash=0a073058c2bcbc7b4647026809882119}{%
+           family={Rivera-Almazo},
+           familyi={R\bibinithyphendelim A\bibinitperiod},
+           given={Marcos},
+           giveni={M\bibinitperiod}}}%
+        {{hash=23ee97edc8d530f7406af7ab278dca2b}{%
+           family={D{í}az-Ram{í}rez},
+           familyi={D\bibinitperiod},
+           given={Mariana\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f05cf0f2c0c0368639c5450880ee1833}{%
+           family={Hern{á}ndez-Esparza},
+           familyi={H\bibinithyphendelim E\bibinitperiod},
+           given={Raymundo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=68aaf091f6c24dc10f94417d20ba5594}{%
+           family={Vargas},
+           familyi={V\bibinitperiod},
+           given={Rubicelia},
+           giveni={R\bibinitperiod}}}%
+        {{hash=835d903b2f0440ff74451936815367ed}{%
+           family={Mart{í}nez},
+           familyi={M\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=847c2de664030e0c08e0ad32979bd7d7}{%
+           family={Martis},
+           familyi={M\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+        {{hash=f42bf790ee78b3d16e09bb985f18afe6}{%
+           family={S{á}enz-Cavazos},
+           familyi={S\bibinithyphendelim C\bibinitperiod},
+           given={Paola\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2596df214de17535da00f7aba4e9856f}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Daryl},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1fa14023db794f74d48a6e25b34ade27}{%
+           family={Lima},
+           familyi={L\bibinitperiod},
+           given={Enrique},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ce2829d95eff38f287edc91a8727a933}{%
+           family={Ibarra},
+           familyi={I\bibinitperiod},
+           given={Ilich\bibnamedelima A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2274cfcd205cd9f601bb261cf8dde533}{%
+           family={Garza},
+           familyi={G\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d78732679714c9e5f0b17b6021a2d94}
+      \strng{fullhash}{f1bd247a5fed9a6de2dff3ee054ed117}
+      \strng{bibnamehash}{f1bd247a5fed9a6de2dff3ee054ed117}
+      \strng{authorbibnamehash}{f1bd247a5fed9a6de2dff3ee054ed117}
+      \strng{authornamehash}{7d78732679714c9e5f0b17b6021a2d94}
+      \strng{authorfullhash}{f1bd247a5fed9a6de2dff3ee054ed117}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{NOTT-401 was found to be a highly stable adsorbent for SO2 and CO with excellent cyclability and a straightforward regeneration at room temperature. Moreover, the preferential CO binding sites within the MOF material have been identified by experimental in situ DRIFT spectroscopy coupled with DFT and QTAIM calculations. Such preferential CO adsorption sites were correlated to identify the most significant SO2 interactions within NOTT-401. This study sheds light on the role of the thiophene and hydroxo functionality, for a MOF material, in the binding of SO2 or CO. This journal is}
+      \field{issn}{14639076}
+      \field{journaltitle}{Physical Chemistry Chemical Physics}
+      \field{number}{2}
+      \field{title}{{Identification of the preferential CO and SO2adsorption sites within NOTT-401}}
+      \field{volume}{23}
+      \field{year}{2021}
+      \field{pages}{1454\bibrangedash 1463}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1039/d0cp04668j
+      \endverb
+      \verb{file}
+      \verb :home/mra/Descargas/Rivera2020.pdf:pdf
+      \endverb
+    \endentry
+    \entry{SYCL2019}{online}{}
+      \name{author}{1}{}{%
+        {{hash=df7b1ec7518d033b0199d5033957ebdb}{%
+           family={{The Khronos Group Inc |}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{df7b1ec7518d033b0199d5033957ebdb}
+      \strng{fullhash}{df7b1ec7518d033b0199d5033957ebdb}
+      \strng{bibnamehash}{df7b1ec7518d033b0199d5033957ebdb}
+      \strng{authorbibnamehash}{df7b1ec7518d033b0199d5033957ebdb}
+      \strng{authornamehash}{df7b1ec7518d033b0199d5033957ebdb}
+      \strng{authorfullhash}{df7b1ec7518d033b0199d5033957ebdb}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{SYCL Overview}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.khronos.org/sycl/
+      \endverb
+      \verb{url}
+      \verb https://www.khronos.org/sycl/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

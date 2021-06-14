@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'tinv2.tex.blg'
+[60] biber:322> INFO - === mar jun  8, 2021, 15:44:33
+[80] Utils.pm:320> ERROR - Cannot find 'tinv2.tex.bcf'!
+[80] Biber.pm:132> INFO - ERRORS: 1

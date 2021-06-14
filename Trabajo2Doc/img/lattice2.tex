@@ -1,0 +1,52 @@
+  \begin{tikzpicture}[scale=0.80]
+    \coordinate (Origin)   at (-7,-4);
+    \coordinate (XAxisMin) at (-3,0);
+    \coordinate (XAxisMax) at (3,0);
+    \coordinate (YAxisMin) at (0,-3);
+    \coordinate (YAxisMax) at (0,3);
+%    \draw [thin, gray,-latex] (XAxisMin) -- (XAxisMax);% Draw x axis
+%    \draw [thin, gray,-latex] (YAxisMin) -- (YAxisMax);% Draw y axis
+
+    \clip (-7.7,-0.5) rectangle (0.5,4.5); % Clips the picture...
+    %\pgftransformcm{1}{0.0}{0.0}{1}{\pgfpoint{0cm}{0cm}}
+          % This is actually the transformation matrix entries that
+          % gives the slanted unit vectors. You might check it on
+           % MATLAB etc. . I got it by guessing.
+    \coordinate (Bone) at (0,1);
+    \coordinate (Btwo) at (2,-2);
+    \draw[style=help lines,dashed] (-14,-14) grid[step=1cm] (14,14);
+          % Draws a grid in the new coordinates.
+          %\filldraw[fill=gray, fill opacity=0.3, draw=black] (0,0) rectangle (2,2);
+              % Puts the shaded rectangle
+    \foreach \x in {-7,...,7}{% Two indices running over each
+      \foreach \y in {-4,-3,...,4}{% node on the grid we have drawn 
+        \node[draw,circle,inner sep=2pt,fill] at (\x,\y) {};
+            % Places a dot at those points
+      }
+    }
+    \draw [ultra thick,-latex,brown] (-7,3)
+        -- +(0,1) node [left] {$\mathbf{b_1}$};
+    \draw [ultra thick,-latex,brown] (-7,3)
+        -- +(1,0) node [below right] {$\mathbf{b_2}$};
+    \draw [ultra thick,-latex,orange] (-7,1)
+        -- (-6,2) node [below right] {$\mathbf{K}$};
+    \draw [ultra thick,-latex,orange] (-7,1)
+        -- (-5,0.5) node [above right] {\small{$\mathbf{k'}$}};
+    \draw [ultra thick,-latex,orange] (-5,0.5)
+        -- (-4,0.5) node [right] {\small{$\mathbf{k'}+\mathbf{b_2}$}};    
+    \filldraw[fill=gray, fill opacity=0.3, draw=black] (-3,2)
+        -- (-2,1) -- (-1,2) -- (-2,3) -- cycle;
+    \filldraw[fill=gray, fill opacity=0.3, draw=black] (-2.5,1.5)
+        rectangle (-1.5,2.5) ;
+    \filldraw[fill=gray, fill opacity=0.3, draw=black] (-3,1.5)
+        rectangle (-1,2.5) ;
+	\filldraw[fill=gray, fill opacity=0.3, draw=black] (-2.5,1)
+        rectangle (-1.5,3) ;
+        
+    %\draw [thin,-latex,red, fill=gray, fill opacity=0.3] (0,0)
+        % -- ($2*(0,2)+(2,-2)$)
+        % -- ($3*(0,2)+2*(2,-2)$) -- ($(0,2)+(2,-2)$) -- cycle;
+  \end{tikzpicture}
+  \caption{Espacio recíproco}
+  %\caption{Malla cuadrada en el espacio recíproco. Los vectores $\mathbf{b_1}$ y $\mathbf{b_2}$ son vectores base, $\mathbf{K}$ es combinación lineales de estos, y $\mathbf{k}$ es un punto cualquiera en este espacio. Las zonas sombreadas representan las primeras tres zonas de Brillouin; la primer zona de Brillouin es la más oscura. }
+  \label{malla2}
