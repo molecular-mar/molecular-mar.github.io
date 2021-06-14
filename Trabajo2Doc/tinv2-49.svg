@@ -47,7 +47,7 @@ text.f42 {font-family:nf0;font-size:10.909088px}
 <g stroke='none' transform='scale(-1.00375,1.00375)translate(-71.999989,-71.999989)scale(-1,-1)'>
 <g fill='#1f271b'>
 <g stroke='none'>
-<g transform='translate(-71.999989,-355.24989)'> <svg height='283.24991' overflow='visible' viewBox='0 0 1389 1388' width='283.46387'> <image height='1388' width='1389' opacity='0.08' xlink:href='img/zif8.png'/> </svg> </g>
+<g transform='translate(-71.999989,-355.24989)'> <svg height='283.24991' overflow='visible' viewBox='0 0 1389 1388' width='283.46387'> <image height='1388' width='1389' opacity='0.08' opacity='0.08' opacity='0.08' xlink:href='img/zif8.png'/> </svg> </g>
 </g>
 </g>
 </g>
