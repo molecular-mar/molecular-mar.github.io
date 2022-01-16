@@ -1,2 +1,2 @@
-# Dr. Miau's codes and furballs
+# Marcos Rivera-Almazo's Blog
 Starting with github.
