@@ -1,0 +1,26 @@
+layout: post
+title: "MSSC 2022 Experience"
+date: 2022-09-23 12:00:00 -0000
+categories: workshops events crystal
+# MSSC 2022 Experience
+
+From 19-22 September 2022 I went (virtualy) to the [MSSC 2022 Summer School](https://www.imperial.ac.uk/mssc/mssc2022/), which in short it's a workshop thats shows the many capabilities of the [CRYSTAL code](https://www.crystal.unito.it/index.php). This was my second time at this event, the first was on 2020. I've being using Crystal (specifically Crystal14) since 2015 as far as I remember, but as some might agree normally we only use the specific fraction of the code we believe its necessary, and this type of workshops are a great to broaden our panorama.
+
+Also, in my particular case, this was a great opportunity to meet (unfortunately only via screen) the developers of Crystal, and of course as a long time user I'm a huge fan of all of them. For my PhD research I'm trying to accelerate the evaluation of electronic integrals for periodic systems, taking as reference the way Crystal evaluates them, so this is also a good chance to ask some questions interactively.
+
+Virtual workshops and conferences, the most popular format nowadays after the pandemic, are always a challenge for both organizer/presenters and assistants, with one of the most difficult aspects keeping attention to what's happening in the screen while the external world is still moving. A particular difficulty for the Mexican an other American countries assistants to European events is the time zone: for this workshop here in Mexico City the sessions went from 2 am to 12 pm. In principle I then needed to go to sleep around 8 pm to rest around 6 hours...but I couldn't.
+
+Thats one of the great things of this school, it's very hard to get bored. Not only the topics are marvelously presented and very interesting, but also the Crystal members supervising are always active on the chat, many times with very funny comments. For moments I almost even forgot that everyone around me were sleeping at home. If anyone hasn't assist this school only because the fear of not being capable of falling asleep, I believe you should give it a try. Also, all the sessions are recorded and you can access them at the end of the event.
+
+All the topics covered were too interesting; both of the times I've assisted I felt the urge to explore as much properties as they show us are possible to do with Crystal alone or using any second coupled tool. Specially for me, the three things that I found more interesting this year were:
+
+* [crystal\_functions](https://github.com/crystal-code-tools/crystal_functions), a Python package with many useful tools to write/read/execute Crystal files. I'm very excited for this one, as this will make easier to automatize some workflow pipelines, extract information, test and analyse results, and many other possible things that can be done integrating the huge world of Python packages.
+
+* Crystal VLab, a web interface that may aid user to build the input, send it to a computing system and visualize the results. Very probably the main tool beginer users will start to use, but also advanced one in order to quickly obtain a starting input file.
+
+* Crystal23 is coming this year! Hopefully as soons as the organizers told us. I really want to start using many of the new functions it will have, being stucked with my Crystal14 version all this time.
+
+This year edition will be special for me: I participated in the Flash Talks session, 5 minutes intended presentations from assistants. Fourtunatly for me, **my talk won the best Flash Talk award!** Given that the target was to get the public attention to my topic in only 5 minutes, I decided to change from the traditional LaTeX presentations to a dynamic webpage using reveal.js, which allowed me to include 3D interactive models. I will keep this presentation in [my webpage](https://molecular-mar.github.io/FlashTalk/), to recall this award and also if anyone wants to make a fork of it to create a dynamic and fun presentation. I wasn't the only winner, also Juan José Esteve-Paredes won this award. He's on the making of an interesting tool for calculating light-matter interactions using Crystal. A very interesting work and researcher, that worth to keep track of.
+
+This is my first actual post here at my page. Hope you find it interesting or useful, it certainly is useful for me as a diary and to practice a little more my English writing skills. See you soon!
+
