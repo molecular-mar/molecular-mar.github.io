@@ -1,10 +1,9 @@
 ---
 layout: single
 title: MSSC 2022 Experience
-date: 2022-09-23 12:00:00 -0000
-categories: workshops events crystal
 
 ---
+
 # MSSC 2022 Experience
 
 From 19-22 September 2022 I went (virtualy) to the [MSSC 2022 Summer School](https://www.imperial.ac.uk/mssc/mssc2022/), which in short it's a workshop thats shows the many capabilities of the [CRYSTAL code](https://www.crystal.unito.it/index.php). This was my second time at this event, the first was on 2020. I've being using Crystal (specifically Crystal14) since 2015 as far as I remember, but as some might agree normally we only use the specific fraction of the code we believe its necessary, and this type of workshops are a great to broaden our panorama.
