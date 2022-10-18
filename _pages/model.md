@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Model
-permalink: /model/
+title: Models
+permalink: /models/
 ---
 
 List of 3D models for some chemical systems

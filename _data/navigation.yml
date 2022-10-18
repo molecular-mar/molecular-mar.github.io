@@ -8,6 +8,8 @@ main:
     url: /code/
   - title: "Slides"
     url: /slides/
+  - title: "Models"
+    url: /models/
   - title: "Talleres"
     url: /talleres/
   # - title: "Sample Collections"
