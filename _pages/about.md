@@ -7,8 +7,8 @@ permalink: /about/
 Hello there! I'm Marcos Rivera-Almazo, currently a PhD candidate on Computational Chemistry at the [Chemistry Department](http://quimica.izt.uam.mx/) of Universidad Autonoma Metropolitana-Iztapalapa ([UAM-I](http://www.iztapalapa.uam.mx/)). I'm working on evaluating bielectronic integrals (both Coulombic and Exchange ones) for periodic systems using GPUs.
 
 <figure>
-    <a href="/images/barca_gaudi.jpg"><img src="/images/barca_gaudi.jpg"></a>
-    <figcaption>At Park Güell, in Barcelona, Spain.</figcaption>
+    <a href="/images/watocYo.jpg"><img src="/images/watocYo.jpg"></a>
+    <figcaption>Poster presentation at WATOC 2022, Vancouver, Canada.</figcaption>
 </figure>
 
 My BS and MSc were both done in Chemistry at UAM-I. In both cases, my final projects were on Computational Chemistry: on the BS I started working with periodic systems, making a computational study of the rock-salt structure of MnO. For my MSc I made an study on the effects of adjusting the Exact Exchange, a parametrized contribution on Hybrid functionals in Density Functional Theory (DFT), on selected transition metal oxides and metaloid oxides. In both of this projects the calculations were performed using [CRYSTAL](https://www.crystal.unito.it/), a code for *ab initio* calculations of periodic systems.
@@ -17,7 +17,7 @@ My BS and MSc were both done in Chemistry at UAM-I. In both cases, my final proj
 
 * During my Bachelor I worked at the supercomputing facilities of UAM-I, primarily working in building applications for its execution in the supercomputer. Before this I started using Linux/GNU as my main OS, and during the two years I worked with the supercomputer my knowledge in using Linux increased a lot. Today I use Fedora as my main OS, and I'm the unofficial technical resposible for the servers of our research group.
 
-* I started programming at High School, using at that time basic *C/C++*. I didn't learned much more about programming during my Bachelor, untilI started to work with Jorge Garza. Then the real path of self taughting me better and modern programming skills started. Currently I use *C++* for my main project, some *Python* when I think it's better, and *Bash scripting* in my regular workflows.
+* I started programming at High School, using at that time basic *C/C++*. I didn't learned much more about programming during my Bachelor, until I started to work with Professor Jorge Garza. Then the real path of self taughting me better and modern programming skills started. Currently I use *C++* for my main project, some *Python* when I think it's better, and *Bash scripting* in my regular workflows.
 
 * I'm really into baking. Many of my Sundays are spended in preparing bread and cookies. One of my dreams is to start a café and bakery stablishment. 
 
