@@ -1,0 +1,3128 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.1//EN" "http://www.web3d.org/specifications/x3d-3.1.dtd">
+<X3D profile='Immersive' version='3.1' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation=' http://www.web3d.org/specifications/x3d-3.1.xsd '>
+<head>
+<meta name='title' content="1521328"/>
+<meta name='description' content='Jmol rendering'/>
+<meta name='creator' content=' '/>
+<meta name='created' content='mié., 19 oct 2022 17:59:32 -0500'/>
+<meta name='generator' content='Jmol 14.31.54  2021-09-07 18:56, http://www.jmol.org'/>
+<meta name='license' content='http://www.gnu.org/licenses/licenses.html#LGPL'/>
+</head>
+<Scene>
+<NavigationInfo type='EXAMINE'/>
+<Background skyColor='0 0 0'/>
+<Viewpoint fieldOfView='0.2837941' position='.746 .548 1154.719' orientation='.008 -.014 -.307 -0.15438782'
+ jump='true' description='v1'/>
+
+  <!-- 
+# Jmol perspective:
+# screen width height dim: 512 500 512
+# perspectiveDepth: false
+# cameraDistance(angstroms): 115.47532
+# aperatureAngle(degrees): 16.260204
+# scalePixelsPerAngstrom: 15.457849
+# light source: {-0.34815532, -0.34815532, 0.87038827}
+# lighting:   set ambientPercent 45;   set diffusePercent 84;   set specular true;   set specularPercent 22;   set specularPower 40;   set specularExponent 6;   set celShading false;   set celShadingPower 10;   set zShadePower 3;   set zDepth 0;   set zSlab 50;   set zShade false; 
+# center: {2.7173998, 1.5710762, 11.02925}
+# rotationRadius: 16.496473
+# boundboxCenter: {2.7173998, 1.5710762, 11.02925}
+# translationOffset: 
+# zoom: 100.0
+# moveto command: moveto 1.0 { 27 -44 -999 8.85} 100.0 0.0 0.0 {2.7173998 1.5710762 11.02925} 16.496473 {0 0 0} 0 0 0 3.0 0.0 0.0;
+
+  -->
+
+<Transform  scale='10 10 10'>
+<Transform  translation='-2.7173998 -1.5710762 -11.02925'>
+<Transform  translation='4.0338 2.2353 3.3478' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet DEF='_0' creaseAngle='0.5'
+coordIndex='
+161 159 160 -1
+36 161 160 -1
+38 160 159 -1
+41 159 161 -1
+135 157 161 -1
+36 135 161 -1
+41 161 157 -1
+9 157 135 -1
+142 133 160 -1
+38 142 160 -1
+36 160 133 -1
+10 133 142 -1
+154 139 159 -1
+41 154 159 -1
+38 159 139 -1
+11 139 154 -1
+158 155 156 -1
+35 158 156 -1
+41 156 155 -1
+40 155 158 -1
+130 152 158 -1
+35 130 158 -1
+40 158 152 -1
+8 152 130 -1
+157 128 156 -1
+41 157 156 -1
+35 156 128 -1
+9 128 157 -1
+149 154 155 -1
+40 149 155 -1
+41 155 154 -1
+11 154 149 -1
+153 150 151 -1
+34 153 151 -1
+40 151 150 -1
+39 150 153 -1
+125 147 153 -1
+34 125 153 -1
+39 153 147 -1
+7 147 125 -1
+152 123 151 -1
+40 152 151 -1
+34 151 123 -1
+8 123 152 -1
+144 149 150 -1
+39 144 150 -1
+40 150 149 -1
+11 149 144 -1
+148 145 146 -1
+33 148 146 -1
+39 146 145 -1
+37 145 148 -1
+120 141 148 -1
+33 120 148 -1
+37 148 141 -1
+6 141 120 -1
+147 118 146 -1
+39 147 146 -1
+33 146 118 -1
+7 118 147 -1
+137 144 145 -1
+37 137 145 -1
+39 145 144 -1
+11 144 137 -1
+143 138 140 -1
+32 143 140 -1
+37 140 138 -1
+38 138 143 -1
+115 142 143 -1
+32 115 143 -1
+38 143 142 -1
+10 142 115 -1
+141 113 140 -1
+37 141 140 -1
+32 140 113 -1
+6 113 141 -1
+139 137 138 -1
+38 139 138 -1
+37 138 137 -1
+11 137 139 -1
+136 132 134 -1
+29 136 134 -1
+30 134 132 -1
+36 132 136 -1
+100 135 136 -1
+29 100 136 -1
+36 136 135 -1
+9 135 100 -1
+105 104 134 -1
+30 105 134 -1
+29 134 104 -1
+5 104 105 -1
+133 109 132 -1
+36 133 132 -1
+30 132 109 -1
+10 109 133 -1
+131 127 129 -1
+27 131 129 -1
+28 129 127 -1
+35 127 131 -1
+93 130 131 -1
+27 93 131 -1
+35 131 130 -1
+8 130 93 -1
+98 97 129 -1
+28 98 129 -1
+27 129 97 -1
+4 97 98 -1
+128 102 127 -1
+35 128 127 -1
+28 127 102 -1
+9 102 128 -1
+126 122 124 -1
+25 126 124 -1
+26 124 122 -1
+34 122 126 -1
+86 125 126 -1
+25 86 126 -1
+34 126 125 -1
+7 125 86 -1
+91 90 124 -1
+26 91 124 -1
+25 124 90 -1
+3 90 91 -1
+123 95 122 -1
+34 123 122 -1
+26 122 95 -1
+8 95 123 -1
+121 117 119 -1
+23 121 119 -1
+24 119 117 -1
+33 117 121 -1
+79 120 121 -1
+23 79 121 -1
+33 121 120 -1
+6 120 79 -1
+84 83 119 -1
+24 84 119 -1
+23 119 83 -1
+2 83 84 -1
+118 88 117 -1
+33 118 117 -1
+24 117 88 -1
+7 88 118 -1
+116 112 114 -1
+31 116 114 -1
+22 114 112 -1
+32 112 116 -1
+107 115 116 -1
+31 107 116 -1
+32 116 115 -1
+10 115 107 -1
+77 111 114 -1
+22 77 114 -1
+31 114 111 -1
+1 111 77 -1
+113 81 112 -1
+32 113 112 -1
+22 112 81 -1
+6 81 113 -1
+110 106 108 -1
+31 110 108 -1
+30 108 106 -1
+21 106 110 -1
+111 76 110 -1
+31 111 110 -1
+21 110 76 -1
+1 76 111 -1
+109 107 108 -1
+30 109 108 -1
+31 108 107 -1
+10 107 109 -1
+73 105 106 -1
+21 73 106 -1
+30 106 105 -1
+5 105 73 -1
+103 99 101 -1
+29 103 101 -1
+28 101 99 -1
+19 99 103 -1
+104 71 103 -1
+29 104 103 -1
+19 103 71 -1
+5 71 104 -1
+102 100 101 -1
+28 102 101 -1
+29 101 100 -1
+9 100 102 -1
+67 98 99 -1
+19 67 99 -1
+28 99 98 -1
+4 98 67 -1
+96 92 94 -1
+27 96 94 -1
+26 94 92 -1
+17 92 96 -1
+97 64 96 -1
+27 97 96 -1
+17 96 64 -1
+4 64 97 -1
+95 93 94 -1
+26 95 94 -1
+27 94 93 -1
+8 93 95 -1
+60 91 92 -1
+17 60 92 -1
+26 92 91 -1
+3 91 60 -1
+89 85 87 -1
+25 89 87 -1
+24 87 85 -1
+15 85 89 -1
+90 57 89 -1
+25 90 89 -1
+15 89 57 -1
+3 57 90 -1
+88 86 87 -1
+24 88 87 -1
+25 87 86 -1
+7 86 88 -1
+53 84 85 -1
+15 53 85 -1
+24 85 84 -1
+2 84 53 -1
+82 78 80 -1
+23 82 80 -1
+22 80 78 -1
+13 78 82 -1
+83 50 82 -1
+23 83 82 -1
+13 82 50 -1
+2 50 83 -1
+81 79 80 -1
+22 81 80 -1
+23 80 79 -1
+6 79 81 -1
+45 77 78 -1
+13 45 78 -1
+22 78 77 -1
+1 77 45 -1
+75 72 74 -1
+21 75 74 -1
+20 74 72 -1
+12 72 75 -1
+76 47 75 -1
+21 76 75 -1
+12 75 47 -1
+1 47 76 -1
+69 73 74 -1
+20 69 74 -1
+21 74 73 -1
+5 73 69 -1
+42 66 72 -1
+12 42 72 -1
+20 72 66 -1
+0 66 42 -1
+70 65 68 -1
+19 70 68 -1
+18 68 65 -1
+20 65 70 -1
+71 69 70 -1
+19 71 70 -1
+20 70 69 -1
+5 69 71 -1
+62 67 68 -1
+18 62 68 -1
+19 68 67 -1
+4 67 62 -1
+66 59 65 -1
+20 66 65 -1
+18 65 59 -1
+0 59 66 -1
+63 58 61 -1
+17 63 61 -1
+16 61 58 -1
+18 58 63 -1
+64 62 63 -1
+17 64 63 -1
+18 63 62 -1
+4 62 64 -1
+55 60 61 -1
+16 55 61 -1
+17 61 60 -1
+3 60 55 -1
+59 52 58 -1
+18 59 58 -1
+16 58 52 -1
+0 52 59 -1
+56 51 54 -1
+15 56 54 -1
+14 54 51 -1
+16 51 56 -1
+57 55 56 -1
+15 57 56 -1
+16 56 55 -1
+3 55 57 -1
+48 53 54 -1
+14 48 54 -1
+15 54 53 -1
+2 53 48 -1
+52 44 51 -1
+16 52 51 -1
+14 51 44 -1
+0 44 52 -1
+49 43 46 -1
+13 49 46 -1
+12 46 43 -1
+14 43 49 -1
+50 48 49 -1
+13 50 49 -1
+14 49 48 -1
+2 48 50 -1
+47 45 46 -1
+12 47 46 -1
+13 46 45 -1
+1 45 47 -1
+44 42 43 -1
+14 44 43 -1
+12 43 42 -1
+0 42 44 -1
+'
+>
+<Coordinate point='
+0 0 1
+.894 0 .447
+.276 .851 .447
+-.724 .526 .447
+-.724 -.526 .447
+.276 -.851 .447
+.724 .526 -.447
+-.276 .851 -.447
+-.894 .0 -.447
+-.276 -.851 -.447
+.724 -.526 -.447
+0 0 -1
+.526 0 .851
+.688 .5 .526
+.162 .5 .851
+-.263 .809 .526
+-.425 .309 .851
+-.851 .0 .526
+-.425 -.309 .851
+-.263 -.809 .526
+.162 -.5 .851
+.688 -.5 .526
+.951 .309 0
+.588 .809 0
+.0 1 0
+-.588 .809 0
+-.951 .309 0
+-.951 -.309 0
+-.588 -.809 0
+.0 -1 0
+.588 -.809 0
+.951 -.309 0
+.851 .0 -.526
+.263 .809 -.526
+-.688 .5 -.526
+-.688 -.5 -.526
+.263 -.809 -.526
+.425 .309 -.851
+.425 -.309 -.851
+-.162 .5 -.851
+-.526 .0 -.851
+-.162 -.5 -.851
+.273 0 .962
+.362 .263 .894
+.084 .26 .962
+.823 .26 .506
+.638 .263 .724
+.738 0 .675
+.228 .702 .675
+.447 .526 .724
+.501 .702 .506
+-.138 .425 .894
+-.221 .161 .962
+.007 .863 .506
+-.053 .688 .724
+-.597 .434 .675
+-.362 .588 .724
+-.513 .694 .506
+-.447 .0 .894
+-.221 -.161 .962
+-.818 .273 .506
+-.671 .162 .724
+-.597 -.434 .675
+-.671 -.162 .724
+-.818 -.273 .506
+-.138 -.425 .894
+.084 -.26 .962
+-.513 -.694 .506
+-.362 -.588 .724
+.228 -.702 .675
+-.053 -.688 .724
+.007 -.863 .506
+.362 -.263 .894
+.501 -.702 .506
+.447 -.526 .724
+.638 -.263 .724
+.823 -.26 .506
+.959 .161 .232
+.862 .425 .276
+.682 .694 -.232
+.809 .588 0
+.87 .434 -.232
+.671 .688 .276
+.449 .863 .232
+.144 .962 .232
+-.138 .951 .276
+-.449 .863 -.232
+-.309 .951 0
+-.144 .962 -.232
+-.447 .851 .276
+-.682 .694 .232
+-.87 .434 .232
+-.947 .162 .276
+-.959 -.161 -.232
+-1 .0 0
+-.959 .161 -.232
+-.947 -.162 .276
+-.87 -.434 .232
+-.682 -.694 .232
+-.447 -.851 .276
+-.144 -.962 -.232
+-.309 -.951 0
+-.449 -.863 -.232
+-.138 -.951 .276
+.144 -.962 .232
+.449 -.863 .232
+.671 -.688 .276
+.87 -.434 -.232
+.809 -.588 0
+.682 -.694 -.232
+.862 -.425 .276
+.959 -.161 .232
+.947 .162 -.276
+.818 .273 -.506
+1 .0 0
+.818 -.273 -.506
+.947 -.162 -.276
+.138 .951 -.276
+-.007 .863 -.506
+.309 .951 0
+.513 .694 -.506
+.447 .851 -.276
+-.862 .425 -.276
+-.823 .26 -.506
+-.809 .588 0
+-.501 .702 -.506
+-.671 .688 -.276
+-.671 -.688 -.276
+-.501 -.702 -.506
+-.809 -.588 0
+-.823 -.26 -.506
+-.862 -.425 -.276
+.447 -.851 -.276
+.513 -.694 -.506
+.309 -.951 0
+-.007 -.863 -.506
+.138 -.951 -.276
+.221 .161 -.962
+.447 .0 -.894
+.221 -.161 -.962
+.671 .162 -.724
+.597 .434 -.675
+.597 -.434 -.675
+.671 -.162 -.724
+-.084 .26 -.962
+.138 .425 -.894
+.053 .688 -.724
+-.228 .702 -.675
+.362 .588 -.724
+-.273 .0 -.962
+-.362 .263 -.894
+-.638 .263 -.724
+-.738 .0 -.675
+-.447 .526 -.724
+-.084 -.26 -.962
+-.362 -.263 -.894
+-.447 -.526 -.724
+-.228 -.702 -.675
+-.638 -.263 -.724
+.138 -.425 -.894
+.362 -.588 -.724
+.053 -.688 -.724
+'/>
+</IndexedFaceSet>
+<Appearance DEF='_1'><Material diffuseColor='1 .055 .055' transparency='0'/></Appearance></Shape>
+</Transform>
+<Transform  translation='2.5631 4.8147 3.2086' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance DEF='_2'><Material diffuseColor='.672 .363 .949' transparency='0'/></Appearance></Shape>
+</Transform>
+<Transform  translation='3.4748 2.9678 6.3428' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.7966 1.0879 0.0' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance DEF='_3'><Material diffuseColor='.652 .652 .672' transparency='0'/></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.0E-4 6.2853 0.372' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.0E-4 6.2853 6.4114' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3819 1.8082 6.6766' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.7347 1.5659 1.5938' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3405 0.6712 5.0866' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.0905 0.3582 7.7515' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.1452 2.7566 3.7599' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='4.3435 1.4462 0.4006' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.6072 1.4311 3.3345' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.0 0.0 1.1827' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.9527 2.3757 3.3478' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.4512 -0.1876 3.2086' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-4.3076 1.5254 6.3428' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.3405 1.878 0.0' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.443 -3.1431 0.372' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.443 -3.1431 6.4114' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.7569 1.1586 6.6766' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.2235 0.7193 1.5938' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.7516 1.6913 5.0866' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.8555 2.4974 7.7515' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.9599 -0.3865 3.7599' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.4242 3.0385 0.4006' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.543 1.5423 3.3345' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.0811 -4.611 3.3478' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.8881 -4.627 3.2086' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.8328 -4.4932 6.3428' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.4561 -2.9659 0.0' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='5.4435 -3.1422 0.372' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='5.4435 -3.1422 6.4114' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.375 -2.9669 6.6766' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.4888 -2.2852 1.5938' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.5889 -2.3625 5.0866' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.235 -2.8556 7.7515' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.8147 -2.3701 3.7599' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.9193 -4.4847 0.4006' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.0642 -2.9735 3.3345' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.0811 4.611 8.1168' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.8881 4.627 7.9776' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.8328 4.4932 11.1118' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.4561 2.9659 4.769' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='5.4435 3.1422 5.141' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='5.4435 3.1422 11.1804' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.375 2.9668 11.4456' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.4888 2.2852 6.3628' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.5889 2.3625 9.8556' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.235 2.8556 12.5205' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.8147 2.3701 8.5289' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.9193 4.4847 5.1696' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.0642 2.9734 8.1035' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.0 0.0 5.9517' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.9527 -2.3757 8.1168' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.4512 0.1876 7.9776' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-4.3076 -1.5254 11.1118' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.3405 -1.878 4.769' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.443 3.1431 5.141' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.443 3.1431 11.1804' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.7569 -1.1586 11.4456' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.2235 -0.7193 6.3628' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.7516 -1.6913 9.8556' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.8555 -2.4974 12.5205' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.9599 0.3865 8.5289' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.4242 -3.0385 5.1696' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.543 -1.5423 8.1035' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='4.0338 -2.2353 8.1168' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.5631 -4.8147 7.9776' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.4748 -2.9678 11.1118' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.7966 -1.0879 4.769' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.0E-4 -6.2853 5.141' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.0E-4 -6.2853 11.1804' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3819 -1.8082 11.4456' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.7347 -1.5659 6.3628' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3405 -0.6712 9.8556' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.0905 -0.3582 12.5205' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.1452 -2.7566 8.5289' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='4.3435 -1.4462 5.1696' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.6072 -1.4311 8.1035' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='4.0338 2.2353 12.8858' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.5631 4.8147 12.7466' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.4748 2.9678 15.8808' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.7966 1.0879 9.538' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.0E-4 6.2853 9.91' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.0E-4 6.2853 15.9494' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3819 1.8082 16.2146' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.7347 1.5659 11.1318' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3405 0.6712 14.6246' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.0905 0.3582 17.2895' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.1452 2.7566 13.2979' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='4.3435 1.4462 9.9386' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.6072 1.4311 12.8725' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.0 0.0 10.7207' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.9527 2.3757 12.8858' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.4512 -0.1876 12.7466' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-4.3076 1.5254 15.8808' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.3405 1.878 9.538' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.443 -3.1431 9.91' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.443 -3.1431 15.9494' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.7569 1.1586 16.2146' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.2235 0.7193 11.1318' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.7516 1.6913 14.6246' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.8555 2.4974 17.2895' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.9599 -0.3865 13.2979' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.4242 3.0385 9.9386' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.543 1.5423 12.8725' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.0811 -4.611 12.8858' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.8881 -4.627 12.7466' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.8328 -4.4932 15.8808' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.4561 -2.9659 9.538' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='5.4435 -3.1422 9.91' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='5.4435 -3.1422 15.9494' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.375 -2.9669 16.2146' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.4888 -2.2852 11.1318' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.5889 -2.3625 14.6246' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.235 -2.8556 17.2895' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.8147 -2.3701 13.2979' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.9193 -4.4847 9.9386' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.0642 -2.9735 12.8725' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.0811 4.611 17.6548' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.8881 4.627 17.5156' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.8328 4.4932 20.6498' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.4561 2.9659 14.307' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='5.4435 3.1422 14.679' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='5.4435 3.1422 20.7184' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.375 2.9668 20.9836' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.4888 2.2852 15.9008' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.5889 2.3625 19.3936' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.235 2.8556 22.0585' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.8147 2.3701 18.0669' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.9193 4.4847 14.7076' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.0642 2.9734 17.6415' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.0 0.0 15.4897' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.9527 -2.3757 17.6548' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.4512 0.1876 17.5156' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-4.3076 -1.5254 20.6498' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.3405 -1.878 14.307' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.443 3.1431 14.679' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.443 3.1431 20.7184' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.7569 -1.1586 20.9836' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.2235 -0.7193 15.9008' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.7516 -1.6913 19.3936' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.8555 -2.4974 22.0585' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.9599 0.3865 18.0669' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.4242 -3.0385 14.7076' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.543 -1.5423 17.6415' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='4.0338 -2.2353 17.6548' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.5631 -4.8147 17.5156' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.4748 -2.9678 20.6498' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.7966 -1.0879 14.307' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.0E-4 -6.2853 14.679' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.0E-4 -6.2854 20.7184' scale='.522 .522 .522'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_2'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3819 -1.8082 20.9836' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.7347 -1.5659 15.9008' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3405 -0.6712 19.3936' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.0905 -0.3582 22.0585' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.1452 -2.7566 18.0669' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='4.3435 -1.4462 14.7076' scale='.35 .35 .35'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.6072 -1.4311 17.6415' scale='.472 .472 .472'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.728025 -0.983775 17.553501' rotation='-0.25618166 0.051550508 0.18658637 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet DEF='_4' creaseAngle='0.5'
+coordIndex='
+71 36 73 -1
+35 34 72 -1
+0 36 71 -1
+35 0 71 -1
+70 71 73 -1
+34 33 72 -1
+35 71 70 -1
+34 35 70 -1
+69 70 73 -1
+33 32 72 -1
+34 70 69 -1
+33 34 69 -1
+68 69 73 -1
+32 31 72 -1
+33 69 68 -1
+32 33 68 -1
+67 68 73 -1
+31 30 72 -1
+32 68 67 -1
+31 32 67 -1
+66 67 73 -1
+30 29 72 -1
+31 67 66 -1
+30 31 66 -1
+65 66 73 -1
+29 28 72 -1
+30 66 65 -1
+29 30 65 -1
+64 65 73 -1
+28 27 72 -1
+29 65 64 -1
+28 29 64 -1
+63 64 73 -1
+27 26 72 -1
+28 64 63 -1
+27 28 63 -1
+62 63 73 -1
+26 25 72 -1
+27 63 62 -1
+26 27 62 -1
+61 62 73 -1
+25 24 72 -1
+26 62 61 -1
+25 26 61 -1
+60 61 73 -1
+24 23 72 -1
+25 61 60 -1
+24 25 60 -1
+59 60 73 -1
+23 22 72 -1
+24 60 59 -1
+23 24 59 -1
+58 59 73 -1
+22 21 72 -1
+23 59 58 -1
+22 23 58 -1
+57 58 73 -1
+21 20 72 -1
+22 58 57 -1
+21 22 57 -1
+56 57 73 -1
+20 19 72 -1
+21 57 56 -1
+20 21 56 -1
+55 56 73 -1
+19 18 72 -1
+20 56 55 -1
+19 20 55 -1
+54 55 73 -1
+18 17 72 -1
+19 55 54 -1
+18 19 54 -1
+53 54 73 -1
+17 16 72 -1
+18 54 53 -1
+17 18 53 -1
+52 53 73 -1
+16 15 72 -1
+17 53 52 -1
+16 17 52 -1
+51 52 73 -1
+15 14 72 -1
+16 52 51 -1
+15 16 51 -1
+50 51 73 -1
+14 13 72 -1
+15 51 50 -1
+14 15 50 -1
+49 50 73 -1
+13 12 72 -1
+14 50 49 -1
+13 14 49 -1
+48 49 73 -1
+12 11 72 -1
+13 49 48 -1
+12 13 48 -1
+47 48 73 -1
+11 10 72 -1
+12 48 47 -1
+11 12 47 -1
+46 47 73 -1
+10 9 72 -1
+11 47 46 -1
+10 11 46 -1
+45 46 73 -1
+9 8 72 -1
+10 46 45 -1
+9 10 45 -1
+44 45 73 -1
+8 7 72 -1
+9 45 44 -1
+8 9 44 -1
+43 44 73 -1
+7 6 72 -1
+8 44 43 -1
+7 8 43 -1
+42 43 73 -1
+6 5 72 -1
+7 43 42 -1
+6 7 42 -1
+41 42 73 -1
+5 4 72 -1
+6 42 41 -1
+5 6 41 -1
+40 41 73 -1
+4 3 72 -1
+5 41 40 -1
+4 5 40 -1
+39 40 73 -1
+3 2 72 -1
+4 40 39 -1
+3 4 39 -1
+38 39 73 -1
+2 1 72 -1
+3 39 38 -1
+2 3 38 -1
+37 38 73 -1
+1 0 72 -1
+2 38 37 -1
+1 2 37 -1
+36 37 73 -1
+0 35 72 -1
+1 37 36 -1
+0 1 36 -1
+'
+>
+<Coordinate point='
+1 .5 0
+.985 .5 .174
+.94 .5 .342
+.866 .5 .5
+.766 .5 .643
+.643 .5 .766
+.5 .5 .866
+.342 .5 .94
+.174 .5 .985
+.0 .5 1
+-.174 .5 .985
+-.342 .5 .94
+-.5 .5 .866
+-.643 .5 .766
+-.766 .5 .643
+-.866 .5 .5
+-.94 .5 .342
+-.985 .5 .174
+-1 .5 .0
+-.985 .5 -.174
+-.94 .5 -.342
+-.866 .5 -.5
+-.766 .5 -.643
+-.643 .5 -.766
+-.5 .5 -.866
+-.342 .5 -.94
+-.174 .5 -.985
+.0 .5 -1
+.174 .5 -.985
+.342 .5 -.94
+.5 .5 -.866
+.643 .5 -.766
+.766 .5 -.643
+.866 .5 -.5
+.94 .5 -.342
+.985 .5 -.174
+.996 -.5 .087
+.966 -.5 .259
+.906 -.5 .423
+.819 -.5 .574
+.707 -.5 .707
+.574 -.5 .819
+.423 -.5 .906
+.259 -.5 .966
+.087 -.5 .996
+-.087 -.5 .996
+-.259 -.5 .966
+-.423 -.5 .906
+-.574 -.5 .819
+-.707 -.5 .707
+-.819 -.5 .574
+-.906 -.5 .423
+-.966 -.5 .259
+-.996 -.5 .087
+-.996 -.5 -.087
+-.966 -.5 -.259
+-.906 -.5 -.423
+-.819 -.5 -.574
+-.707 -.5 -.707
+-.574 -.5 -.819
+-.423 -.5 -.906
+-.259 -.5 -.966
+-.087 -.5 -.996
+.087 -.5 -.996
+.259 -.5 -.966
+.423 -.5 -.906
+.574 -.5 -.819
+.707 -.5 -.707
+.819 -.5 -.574
+.906 -.5 -.423
+.966 -.5 -.259
+.996 -.5 -.087
+0 .5 0
+0 -.5 0
+'/>
+</IndexedFaceSet>
+<Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.6072 -1.4311 17.6415' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.969675 -0.08912501 17.377499' rotation='0.25618166 1.9484495 -0.18658635 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.0905 0.3582 17.2895' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.96385 -1.6321499 17.644825' rotation='-0.871093 1.491051 -0.008124544 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.67715 -2.03425 17.651476' rotation='0.8710931 0.5089493 0.008119881 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='4.0338 -2.2353 17.6548' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.5107 -2.4252248 17.96055' rotation='-0.7242099 0.34340632 0.21072417 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.1452 -2.7566 18.0669' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.2417 -1.762475 17.74785' rotation='0.7242099 1.6565937 -0.21072417 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.407175 -0.86117494 18.955576' rotation='-0.13830669 1.3940732 0.90861297 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3405 -0.6712 19.3936' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.540525 -1.241125 18.079525' rotation='0.13830619 0.6059281 -0.9086136 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.35085 -0.95544994 19.7911' rotation='-0.021174867 1.5815423 -0.8132405 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.37155 -1.52395 20.586102' rotation='0.021174867 0.4184577 0.8132405 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3819 -1.8082 20.9836' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.000175 -1.4463999 15.50235' rotation='-0.5379684 0.75784093 0.8074336 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.7347 -1.5659 15.9008' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.531125 -1.2074001 14.70545' rotation='0.5379684 1.242159 -0.8074336 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.7966 -1.0879 14.307' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.952825 -1.5322 16.335976' rotation='-0.44702676 0.930935 -0.89185035 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3890748 -1.4648 17.206326' rotation='0.44702658 1.069065 0.8918505 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.55905 -1.4456999 21.252325' rotation='-0.36543167 0.25222158 -0.5543348 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.91335 -0.7207 21.789776' rotation='0.36543086 1.7477767 0.55433756 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.0905 -0.3582 22.0585' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.6551251 -2.0981 20.90015' rotation='-0.67129624 1.7122662 0.20503218 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.201575 -2.6778998 20.73325' rotation='0.67129683 0.28773433 -0.20503218 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.4748 -2.9678 20.6498' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.8700752 -0.905475 13.860374' rotation='-0.15056103 0.62618387 0.91520095 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.017025 -0.540625 12.967125' rotation='0.15056103 1.3738161 -0.91520095 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.0905 -0.3582 12.5205' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.1833253 -1.177475 14.40715' rotation='-0.94461006 1.2187951 -0.24462321 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.9567752 -1.3566251 14.60745' rotation='0.9446095 0.7812051 0.2446254 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='4.3435 -1.4462 14.7076' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.463125 -1.33655 17.206326' rotation='-0.16369672 0.5783336 0.89185244 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.543 -1.5423 17.6415' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.303375 -0.92505 16.335976' rotation='0.16369672 1.4216664 -0.89185244 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.2235 -0.7193 15.9008' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.34515 -1.57955 18.079525' rotation='-0.4104106 1.0772697 -0.9086212 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.94945 -1.6540501 18.955576' rotation='0.4104121 0.92273 0.90862054 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.7516 -1.6913 19.3936' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.216 -1.870625 17.553501' rotation='-0.69328463 1.6960936 0.18657458 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.562 -2.527275 17.377499' rotation='0.6932844 0.30390614 -0.18657465 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.235 -2.8556 17.2895' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.153275 -2.748375 14.60745' rotation='-0.661772 0.29132968 0.24463055 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.4242 -3.0385 14.7076' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.611425 -2.1681252 14.40715' rotation='0.66177243 1.7086707 -0.24462835 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.3405 -1.878 14.307' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.90915 0.579525 17.603825' rotation='-0.10064388 0.61720634 0.9183354 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.9599 0.3865 18.0669' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.80765 0.965575 16.677675' rotation='0.10064306 1.3827924 -0.91833603 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.7569 1.1586 16.2146' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.855675 -0.095699996 17.96055' rotation='-0.20652167 1.9554794 0.21073242 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.647225 -1.0601 17.74785' rotation='0.20652212 0.044520855 -0.2107324 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.5055752 -1.291775 20.586102' rotation='-0.5141875 1.2724636 0.8132495 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.7569 -1.1586 20.9836' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.002925 -1.558125 19.7911' rotation='0.5141875 0.72753644 -0.8132495 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.53155 -1.4933 21.252325' rotation='-0.464842 1.6904049 -0.5543131 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.0808501 -2.1627002 21.789776' rotation='0.46484095 0.30959666 0.5543158 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.8555 -2.4974 22.0585' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.3112502 -1.588325 14.70545' rotation='-0.05927236 0.41300392 -0.8074171 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.25275 -1.008975 15.50235' rotation='0.05927236 1.5869961 0.8074171 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.9026 -1.999125 14.3864' rotation='-0.9494202 1.2626137 -0.17214897 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.0268 -2.241375 14.5452' rotation='0.9494203 0.7373864 0.17214893 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.5889 -2.3625 14.6246' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.2192502 -2.03285 13.860374' rotation='-0.24845831 1.317309 0.9151958 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.97675 -2.34255 12.967125' rotation='0.24845809 0.6826909 -0.9151959 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.8555 -2.4974 12.5205' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.20235 -2.42575 13.58975' rotation='0.7835603 0.6229011 -0.49379122 3.1415927' scale='.15 2.905 .15'>
+<Shape><IndexedFaceSet DEF='_5' creaseAngle='0.5'
+coordIndex='
+71 36 73 -1
+35 34 72 -1
+0 36 71 -1
+35 0 71 -1
+70 71 73 -1
+34 33 72 -1
+35 71 70 -1
+34 35 70 -1
+69 70 73 -1
+33 32 72 -1
+34 70 69 -1
+33 34 69 -1
+68 69 73 -1
+32 31 72 -1
+33 69 68 -1
+32 33 68 -1
+67 68 73 -1
+31 30 72 -1
+32 68 67 -1
+31 32 67 -1
+66 67 73 -1
+30 29 72 -1
+31 67 66 -1
+30 31 66 -1
+65 66 73 -1
+29 28 72 -1
+30 66 65 -1
+29 30 65 -1
+64 65 73 -1
+28 27 72 -1
+29 65 64 -1
+28 29 64 -1
+63 64 73 -1
+27 26 72 -1
+28 64 63 -1
+27 28 63 -1
+62 63 73 -1
+26 25 72 -1
+27 63 62 -1
+26 27 62 -1
+61 62 73 -1
+25 24 72 -1
+26 62 61 -1
+25 26 61 -1
+60 61 73 -1
+24 23 72 -1
+25 61 60 -1
+24 25 60 -1
+59 60 73 -1
+23 22 72 -1
+24 60 59 -1
+23 24 59 -1
+58 59 73 -1
+22 21 72 -1
+23 59 58 -1
+22 23 58 -1
+57 58 73 -1
+21 20 72 -1
+22 58 57 -1
+21 22 57 -1
+56 57 73 -1
+20 19 72 -1
+21 57 56 -1
+20 21 56 -1
+55 56 73 -1
+19 18 72 -1
+20 56 55 -1
+19 20 55 -1
+54 55 73 -1
+18 17 72 -1
+19 55 54 -1
+18 19 54 -1
+53 54 73 -1
+17 16 72 -1
+18 54 53 -1
+17 18 53 -1
+52 53 73 -1
+16 15 72 -1
+17 53 52 -1
+16 17 52 -1
+51 52 73 -1
+15 14 72 -1
+16 52 51 -1
+15 16 51 -1
+50 51 73 -1
+14 13 72 -1
+15 51 50 -1
+14 15 50 -1
+49 50 73 -1
+13 12 72 -1
+14 50 49 -1
+13 14 49 -1
+48 49 73 -1
+12 11 72 -1
+13 49 48 -1
+12 13 48 -1
+47 48 73 -1
+11 10 72 -1
+12 48 47 -1
+11 12 47 -1
+46 47 73 -1
+10 9 72 -1
+11 47 46 -1
+10 11 46 -1
+45 46 73 -1
+9 8 72 -1
+10 46 45 -1
+9 10 45 -1
+44 45 73 -1
+8 7 72 -1
+9 45 44 -1
+8 9 44 -1
+43 44 73 -1
+7 6 72 -1
+8 44 43 -1
+7 8 43 -1
+42 43 73 -1
+6 5 72 -1
+7 43 42 -1
+6 7 42 -1
+41 42 73 -1
+5 4 72 -1
+6 42 41 -1
+5 6 41 -1
+40 41 73 -1
+4 3 72 -1
+5 41 40 -1
+4 5 40 -1
+39 40 73 -1
+3 2 72 -1
+4 40 39 -1
+3 4 39 -1
+38 39 73 -1
+2 1 72 -1
+3 39 38 -1
+2 3 38 -1
+37 38 73 -1
+1 0 72 -1
+2 38 37 -1
+1 2 37 -1
+36 37 73 -1
+0 35 72 -1
+1 37 36 -1
+0 1 36 -1
+'
+>
+<Coordinate point='
+1 .5 0
+.985 .5 .174
+.94 .5 .342
+.866 .5 .5
+.766 .5 .643
+.643 .5 .766
+.5 .5 .866
+.342 .5 .94
+.174 .5 .985
+.0 .5 1
+-.174 .5 .985
+-.342 .5 .94
+-.5 .5 .866
+-.643 .5 .766
+-.766 .5 .643
+-.866 .5 .5
+-.94 .5 .342
+-.985 .5 .174
+-1 .5 .0
+-.985 .5 -.174
+-.94 .5 -.342
+-.866 .5 -.5
+-.766 .5 -.643
+-.643 .5 -.766
+-.5 .5 -.866
+-.342 .5 -.94
+-.174 .5 -.985
+.0 .5 -1
+.174 .5 -.985
+.342 .5 -.94
+.5 .5 -.866
+.643 .5 -.766
+.766 .5 -.643
+.866 .5 -.5
+.94 .5 -.342
+.985 .5 -.174
+.996 -.5 .087
+.966 -.5 .259
+.906 -.5 .423
+.819 -.5 .574
+.707 -.5 .707
+.574 -.5 .819
+.423 -.5 .906
+.259 -.5 .966
+.087 -.5 .996
+-.087 -.5 .996
+-.259 -.5 .966
+-.423 -.5 .906
+-.574 -.5 .819
+-.707 -.5 .707
+-.819 -.5 .574
+-.906 -.5 .423
+-.966 -.5 .259
+-.996 -.5 .087
+-.996 -.5 -.087
+-.966 -.5 -.259
+-.906 -.5 -.423
+-.819 -.5 -.574
+-.707 -.5 -.707
+-.574 -.5 -.819
+-.423 -.5 -.906
+-.259 -.5 -.966
+-.087 -.5 -.996
+.087 -.5 -.996
+.259 -.5 -.966
+.423 -.5 -.906
+.574 -.5 -.819
+.707 -.5 -.707
+.819 -.5 -.574
+.906 -.5 -.423
+.966 -.5 -.259
+.996 -.5 -.087
+0 .5 0
+0 -.5 0
+'/>
+</IndexedFaceSet>
+<Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.919925 -1.4337001 20.73325' rotation='-0.9524731 0.77470344 -0.20502786 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-4.3076 -1.5254 20.6498' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.144575 -1.2502999 20.90015' rotation='0.9524731 1.2252967 0.20502798 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.600275 -2.16735 17.651476' rotation='-0.86079234 0.49110848 0.008120056 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.9527 -2.3757 17.6548' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.8954248 -1.7506499 17.644825' rotation='0.8607923 1.5088915 -0.008124714 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.405525 2.822575 17.74785' rotation='-0.9307416 1.2988539 -0.21072824 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.0642 2.9734 17.6415' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.344975 2.520925 17.96055' rotation='0.93074167 0.7011461 0.21072824 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.8147 2.3701 18.0669' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.1588501 2.3908 16.928051' rotation='0.7988019 0.6194906 -0.46597013 3.1415927' scale='.15 3.062 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.07405 2.80135 17.206326' rotation='-0.28333038 1.3526003 0.89185023 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.35055 2.45725 16.335976' rotation='0.28333038 0.64739966 -0.89185023 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.4888 2.2852 15.9008' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.80350006 4.105 14.60745' rotation='-0.28285015 1.9274454 0.24462408 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.9193 4.4847 14.7076' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.5719 3.3456001 14.40715' rotation='0.28285033 0.07255411 -0.24462189 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.4561 2.9659 14.307' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.9565 2.229625 17.603825' rotation='-0.28120422 1.2785769 0.9183241 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.2401 1.9486749 16.677675' rotation='0.28120327 0.7214241 -0.9183247 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3819 1.8082 16.2146' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.8325 2.8834 21.789776' rotation='-0.8303066 0.9426519 0.55434847 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.235 2.8556 22.0585' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.027500004 2.9390001 21.252325' rotation='0.8303084 1.0573481 -0.5543457 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.375 2.9668 20.9836' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.347925 2.513575 19.7911' rotation='-0.49301967 0.6909103 -0.81326205 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.5889 2.3625 19.3936' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.134025 2.8157248 20.586102' rotation='0.4930197 1.3090897 0.81326205 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.45772502 2.515225 18.955576' rotation='-0.27210438 0.68319273 0.90862113 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.195375 2.8206751 18.079525' rotation='0.27210343 1.3168057 -0.90862197 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.962075 2.16595 15.97925' rotation='-0.9574032 1.2412348 -0.15869749 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.9086251 1.92745 16.13615' rotation='0.9574026 0.7587654 0.15870124 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.48944998 3.3484 20.90015' rotation='-0.28117654 0.062499285 0.2050177 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.71834993 4.1116 20.73325' rotation='0.28117654 1.9375007 -0.2050177 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.8328 4.4932 20.6498' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.219875 2.7957249 14.70545' rotation='-0.47869062 1.3448454 -0.80742615 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.25257498 2.4553752 15.50235' rotation='0.4786906 0.6551546 0.80742615 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.055774987 2.913575 14.054726' rotation='-0.84089845 1.1099107 0.52991456 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.744875 2.808925 13.550175' rotation='0.84089845 0.8900893 -0.52991456 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.1452 2.7566 13.2979' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.040549994 2.96635 12.8763' rotation='0.27892494 1.0003022 -0.96031284 3.1415927' scale='.15 2.98 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.076875 4.2016 17.651476' rotation='-0.010319092 1.9999137 0.008119741 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.0811 4.611 17.6548' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.068425 3.3828 17.644825' rotation='0.010319092 8.624792E-5 -0.0081244 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.1588501 -2.39085 12.15905' rotation='0.79879177 1.3805372 -0.46596482 3.1415927' scale='.15 3.062 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.405525 -2.82265 12.97885' rotation='-0.93072796 0.7011014 -0.21072514 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.0642 -2.9735 12.8725' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.344975 -2.52095 13.19155' rotation='0.9307278 1.298899 0.2107251 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.8147 -2.3701 13.2979' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.07405 -2.801425 12.437325' rotation='-0.2833253 0.6473552 0.89183426 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.35055 -2.4572752 11.566975' rotation='0.28332528 1.3526453 -0.8918341 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.4888 -2.2852 11.1318' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.80350006 -4.105 9.8384495' rotation='-0.28285033 0.07255411 0.24462189 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.9193 -4.4847 9.9386' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.5719 -3.3456001 9.63815' rotation='0.28285015 1.9274454 -0.24462408 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.4561 -2.9659 9.538' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.060175 -2.04955 13.550175' rotation='-0.51561606 0.32669038 -0.52990025 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.551125 -1.4084501 14.054726' rotation='0.51561606 1.6733096 0.52990025 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.9565 -2.229625 12.8348255' rotation='-0.28120327 0.7214241 0.9183247 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.2401 -1.9486749 11.908674' rotation='0.28120327 1.2785759 -0.9183247 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3819 -1.8082 11.4456' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.8325 -2.8834252 17.020775' rotation='-0.83030415 1.057399 0.55434686 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.027500004 -2.939075 16.483324' rotation='0.83030593 0.94260085 -0.55434406 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.375 -2.9669 16.2146' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.347925 -2.5135999 15.0221' rotation='-0.49301335 1.3091375 -0.8132477 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.134025 -2.8158002 15.8171' rotation='0.4930126 0.690863 0.81324834 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.45772502 -2.51525 14.186575' rotation='-0.27209994 1.3168535 0.90860635 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.195375 -2.82075 13.310526' rotation='0.27209994 0.6831465 -0.90860635 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.962075 -2.16595 11.21025' rotation='-0.9574029 0.75876534 -0.15869936 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.9086251 -1.92745 11.367149' rotation='0.9574032 1.2412348 0.15869749 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.4911 -2.1990001 16.928051' rotation='0.72893816 1.5015247 0.4659636 3.1415927' scale='.15 3.062 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.56755 -2.9143252 16.677675' rotation='-0.38184628 0.8957382 -0.91832614 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.95265 -2.809175 17.603825' rotation='0.38184756 1.1042621 0.9183255 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.714925 -2.61665 16.13615' rotation='-0.6876247 0.29148912 0.15869664 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.3947749 -1.9161501 15.97925' rotation='0.68762505 1.7085114 -0.15869288 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.48944998 -3.348475 16.13115' rotation='-0.2811926 1.9374933 0.2050294 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.71834993 -4.1116247 15.96425' rotation='0.28119302 0.06250638 -0.20502737 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.8328 -4.4932 15.8808' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.055774987 -2.913575 9.285725' rotation='-0.84089935 0.89008915 0.5299131 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.744875 -2.808925 8.781176' rotation='0.84089935 1.1099108 -0.5299131 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.1452 -2.7566 8.5289' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.219875 -2.7957249 9.93645' rotation='-0.47869062 0.6551546 -0.80742615 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.25257498 -2.4553752 10.73335' rotation='0.4786906 1.3448454 0.80742615 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.040549994 -2.9664001 8.1073' rotation='0.27892494 0.99966425 -0.96031284 3.1415927' scale='.15 2.98 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.076875 -4.201625 12.882475' rotation='-0.010319729 8.624792E-5 0.0081202425 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.0811 -4.611 12.8858' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.068425 -3.382875 12.875826' rotation='0.010319718 1.9999138 -0.008120233 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.49955 2.2540998 13.58975' rotation='0.7183586 1.4900355 0.49378753 3.1415927' scale='.15 2.905 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.216 1.870625 12.7845' rotation='-0.6932852 0.30390584 0.18657069 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.543 1.5423 12.8725' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.562 2.527275 12.6085005' rotation='0.69328463 1.696094 -0.18657269 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.235 2.8556 12.5205' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.34515 1.57955 13.310526' rotation='-0.4104121 0.92273 -0.90862054 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.94945 1.6540501 14.186575' rotation='0.4104121 1.07727 0.90862054 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.7516 1.6913 14.6246' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.463125 1.33655 12.437325' rotation='-0.16369672 1.4216664 0.89185244 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.303375 0.92505 11.566975' rotation='0.16369672 0.5783336 -0.89185244 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.2235 0.7193 11.1318' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.153275 2.748375 9.8384495' rotation='-0.66177243 1.7086707 0.24462835 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.4242 3.0385 9.9386' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.611425 2.1681252 9.63815' rotation='0.661772 0.29132968 -0.24463055 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.3405 1.878 9.538' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.855675 0.095699996 13.19155' rotation='-0.20652167 0.044520676 0.21073242 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.9599 -0.3865 13.2979' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.647225 1.0601 12.97885' rotation='0.20652212 1.9554791 -0.2107324 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.90915 -0.579525 12.8348255' rotation='-0.10064352 1.3827922 0.9183359 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.80765 -0.965575 11.908674' rotation='0.10064306 0.61720765 -0.91833603 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.7569 -1.1586 11.4456' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.80505 -0.75937504 13.550175' rotation='-0.32525682 1.7832105 -0.5298955 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.49535 -1.505125 14.054726' rotation='0.32525685 0.21678954 0.52989554 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.407675 2.6164002 17.377499' rotation='-0.9494886 0.74769366 -0.18658221 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.8555 2.4974 17.2895' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.512025 2.8544002 17.553501' rotation='0.9494886 1.2523063 0.18658221 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.4277251 2.00995 14.5452' rotation='-0.70219177 0.30913663 0.17214686 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.779975 2.64725 14.3864' rotation='0.7021917 1.6908634 -0.17214686 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.53155 1.4933 16.483324' rotation='-0.464842 0.30959517 -0.5543131 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.0808501 2.1627002 17.020775' rotation='0.46484095 1.6904033 0.5543158 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.62355 0.689125 16.13615' rotation='-0.26976913 1.9497559 0.15870804 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.3568501 -0.24982499 15.97925' rotation='0.2697693 0.050243437 -0.15870428 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.5055752 1.291775 15.8171' rotation='-0.5141883 0.7275361 0.8132489 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.002925 1.558125 15.0221' rotation='0.5141891 1.2724644 -0.8132482 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.64995 -0.19185 16.928051' rotation='0.06985327 0.11796808 0.4659831 3.1415927' scale='.15 3.062 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.20235 2.4257002 8.82075' rotation='0.7835704 1.3770695 -0.49379757 3.1415927' scale='.15 2.905 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.9026 1.999125 9.6174' rotation='-0.9494202 0.73738635 -0.17214897 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.0268 2.241375 9.7762' rotation='0.9494203 1.2626135 0.17214893 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.5889 2.3625 9.8556' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.2192502 2.03285 9.091375' rotation='-0.24845831 0.682691 0.9151958 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.97675 2.34255 8.198126' rotation='0.24845809 1.3173091 -0.9151959 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.8555 2.4974 7.7515' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.3112502 1.588325 9.93645' rotation='-0.05927236 1.5869961 -0.8074171 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.25275 1.008975 10.73335' rotation='0.05927236 0.41300392 0.8074171 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.919925 1.4337001 15.96425' rotation='-0.95247364 1.2252967 -0.20502561 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-4.3076 1.5254 15.8808' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.144575 1.2502999 16.13115' rotation='0.9524731 0.77470326 0.20502798 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.600275 2.16735 12.882475' rotation='-0.86079234 1.5088916 0.008120056 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.9527 2.3757 12.8858' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.8954248 1.7506499 12.875826' rotation='0.86079234 0.49110848 -0.008120056 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.96385 1.6321499 12.875826' rotation='-0.87109303 0.5089489 -0.008119886 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.6072 1.4311 12.8725' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.67715 2.03425 12.882475' rotation='0.8710931 1.4910507 0.008119881 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='4.0338 2.2353 12.8858' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.728025 0.983775 12.7845' rotation='-0.25618187 1.9484502 0.18658246 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.969675 0.08912501 12.6085005' rotation='0.25618175 0.05155015 -0.1865844 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.7019 0.17159998 13.58975' rotation='0.06519801 0.13287425 0.49380374 3.1415927' scale='.15 2.905 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.5107 2.4252248 13.19155' rotation='-0.7242099 1.6565937 0.21072417 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.2417 1.762475 12.97885' rotation='0.7242099 0.34340632 -0.21072417 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.454525 0.23142497 14.5452' rotation='-0.24723417 1.953539 0.17215863 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3405 0.6712 14.6246' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.6825752 -0.64812505 14.3864' rotation='0.24723414 0.046460927 -0.17215861 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.35085 0.95544994 15.0221' rotation='-0.021174934 0.41845584 -0.8132392 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.37155 1.52395 15.8171' rotation='0.0211749 1.5815432 0.8132399 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.407175 0.86117494 14.186575' rotation='-0.13830669 0.6059267 0.90861297 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.540525 1.241125 13.310526' rotation='0.13830669 1.3940732 -0.90861297 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.000175 1.4463999 10.73335' rotation='-0.5379684 1.242159 0.8074336 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.7347 1.5659 11.1318' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.531125 1.2074001 9.93645' rotation='0.5379684 0.75784093 -0.8074336 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.7966 1.0879 9.538' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.952825 1.5322 11.566975' rotation='-0.44702676 1.069065 -0.89185035 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3890748 1.4648 12.437325' rotation='0.44702658 0.930935 0.8918505 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.6551251 2.0981 16.13115' rotation='-0.67129624 0.2877338 0.20503218 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.201575 2.6778998 15.96425' rotation='0.67129713 1.712266 -0.20502995 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.4748 2.9678 15.8808' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.55905 1.4456999 16.483324' rotation='-0.36543167 1.7477784 -0.5543348 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.91335 0.7207 17.020775' rotation='0.36543086 0.2522232 0.55433756 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.1833253 1.177475 9.63815' rotation='-0.9446095 0.7812051 -0.2446254 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.9567752 1.3566251 9.8384495' rotation='0.94461006 1.2187951 0.24462321 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='4.3435 1.4462 9.9386' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.8700752 0.905475 9.091375' rotation='-0.15056103 1.3738161 0.91520095 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.017025 0.540625 8.198126' rotation='0.15056103 0.62618387 -0.91520095 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.0905 0.3582 7.7515' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.728025 -0.983775 8.0155' rotation='-0.2561818 0.05154997 0.18658343 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.6072 -1.4311 8.1035' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.969675 -0.08912501 7.8395004' rotation='0.2561818 1.9484501 -0.18658343 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.7019 -0.17159998 8.82075' rotation='0.06519801 1.8671257 0.49380374 3.1415927' scale='.15 2.905 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.96385 -1.6321499 8.106825' rotation='-0.87109303 1.4910511 -0.008122215 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.67715 -2.03425 8.113476' rotation='0.8710931 0.5089493 0.00812221 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='4.0338 -2.2353 8.1168' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.5107 -2.4252248 8.42255' rotation='-0.7242099 0.34340632 0.21072417 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.2417 -1.762475 8.20985' rotation='0.7242099 1.6565937 -0.21072417 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.454525 -0.23142497 9.7762' rotation='-0.24723417 0.046460986 0.17215863 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3405 -0.6712 9.8556' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.6825752 0.64812505 9.6174' rotation='0.24723414 1.9535391 -0.17215861 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.407175 -0.86117494 9.417576' rotation='-0.13830644 1.3940725 0.9086133 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.540525 -1.241125 8.541525' rotation='0.13830644 0.6059274 -0.9086133 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.35085 -0.95544994 10.2531' rotation='-0.0211749 1.5815432 -0.8132399 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.37155 -1.52395 11.0480995' rotation='0.021174934 0.41845584 0.8132392 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.000175 -1.4463999 5.9643497' rotation='-0.5379684 0.75784093 0.8074336 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.7347 -1.5659 6.3628' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.531125 -1.2074001 5.16745' rotation='0.5379684 1.242159 -0.8074336 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.7966 -1.0879 4.769' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.952825 -1.5322 6.7979755' rotation='-0.44702676 0.930935 -0.89185035 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3890748 -1.4648 7.6683254' rotation='0.44702658 1.069065 0.8918505 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.55905 -1.4456999 11.714325' rotation='-0.36543167 0.25222158 -0.5543348 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.91335 -0.7207 12.251775' rotation='0.36543125 1.7477777 0.5543362 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.58925 -1.44805 12.8763' rotation='0.13917658 1.2417383 0.9603085 3.1415927' scale='.15 2.98 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.6551251 -2.0981 11.36215' rotation='-0.67129624 1.7122662 0.20503218 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.201575 -2.6778998 11.19525' rotation='0.67129683 0.28773433 -0.20503218 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.4748 -2.9678 11.1118' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.1833253 -1.177475 4.86915' rotation='-0.9446095 1.218795 -0.2446254 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.9567752 -1.3566251 5.0694504' rotation='0.9446095 0.7812051 0.2446254 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='4.3435 -1.4462 5.1696' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.463125 -1.33655 7.6683254' rotation='-0.16369672 0.5783336 0.89185244 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.543 -1.5423 8.1035' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.303375 -0.92505 6.7979755' rotation='0.16369672 1.4216664 -0.89185244 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.2235 -0.7193 6.3628' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.34515 -1.57955 8.541525' rotation='-0.41041133 1.0772698 -0.90862083 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.94945 -1.6540501 9.417576' rotation='0.41041133 0.92273015 0.90862083 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.7516 -1.6913 9.8556' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.49955 -2.2540998 8.82075' rotation='0.7183586 0.50996447 0.49378753 3.1415927' scale='.15 2.905 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.216 -1.870625 8.0155' rotation='-0.69328505 1.696094 0.18657166 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.562 -2.527275 7.8395004' rotation='0.6932848 0.30390573 -0.18657173 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.235 -2.8556 7.7515' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.153275 -2.748375 5.0694504' rotation='-0.661772 0.29132968 0.24463055 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.4242 -3.0385 5.1696' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.611425 -2.1681252 4.86915' rotation='0.661772 1.7086704 -0.24463055 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.3405 -1.878 4.769' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.80505 0.75937504 8.781176' rotation='-0.32525718 0.21678865 -0.52989405 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.9599 0.3865 8.5289' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.49535 1.505125 9.285725' rotation='0.32525724 1.7832114 0.5298941 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.90915 0.579525 8.0658245' rotation='-0.1006437 0.61720705 0.9183357 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.80765 0.965575 7.139675' rotation='0.10064324 1.382793 -0.91833574 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.7569 1.1586 6.6766' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.855675 -0.095699996 8.42255' rotation='-0.20652167 1.9554794 0.21073242 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.647225 -1.0601 8.20985' rotation='0.20652212 0.044520855 -0.2107324 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.407675 -2.616425 12.6085005' rotation='-0.9494762 1.2523562 -0.18657777 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.512025 -2.854475 12.7845' rotation='0.9494766 0.7476437 0.18657582 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.4277251 -2.00995 9.7762' rotation='-0.70219177 1.6908634 0.17214686 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.779975 -2.64725 9.6174' rotation='0.7021917 0.30913657 -0.17214686 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.62355 -0.689125 11.367149' rotation='-0.26976928 0.050243437 0.15870427 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.3568501 0.24982499 11.21025' rotation='0.2697692 1.9497561 -0.15870616 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.64995 0.19185 12.15905' rotation='0.06985328 1.8820322 0.46598256 3.1415927' scale='.15 3.062 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.5055752 -1.291775 11.0480995' rotation='-0.5141891 1.2724644 0.8132482 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.002925 -1.558125 10.2531' rotation='0.5141883 0.7275361 -0.8132489 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.53155 -1.4933 11.714325' rotation='-0.464842 1.6904049 -0.5543131 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.0808501 -2.1627002 12.251775' rotation='0.46484149 0.30959594 0.55431443 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.5487 -1.5183 12.8763' rotation='0.13974617 0.75856525 0.9603022 3.1415927' scale='.15 2.98 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.3112502 -1.588325 5.16745' rotation='-0.05927236 0.41300392 -0.8074171 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.25275 -1.008975 5.9643497' rotation='0.05927236 1.5869961 0.8074171 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.9026 -1.999125 4.8484' rotation='-0.9494202 1.2626137 -0.17214897 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.0268 -2.241375 5.0072002' rotation='0.9494203 0.7373864 0.17214893 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.5889 -2.3625 5.0866' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.20235 -2.42575 4.05175' rotation='0.7835603 0.6229011 -0.49379122 3.1415927' scale='.15 2.905 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.919925 -1.4337001 11.19525' rotation='-0.9524731 0.77470344 -0.20502786 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-4.3076 -1.5254 11.1118' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.144575 -1.2502999 11.36215' rotation='0.9524731 1.2252967 0.20502798 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.600275 -2.16735 8.113476' rotation='-0.86079234 0.49110848 0.0081223855 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.9527 -2.3757 8.1168' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.8954248 -1.7506499 8.106825' rotation='0.86079234 1.5088916 -0.0081223855 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.1588501 2.3908 7.39005' rotation='0.79880166 0.61949074 -0.4659706 3.1415927' scale='.15 3.062 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.405525 2.822575 8.20985' rotation='-0.9307416 1.2988539 -0.21072824 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.0642 2.9734 8.1035' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.344975 2.520925 8.42255' rotation='0.93074167 0.7011461 0.21072824 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.8147 2.3701 8.5289' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.07405 2.80135 7.6683254' rotation='-0.28333038 1.3526003 0.89185023 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.35055 2.45725 6.7979755' rotation='0.28333038 0.64739966 -0.89185023 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.4888 2.2852 6.3628' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.80350006 4.105 5.0694504' rotation='-0.28285015 1.9274454 0.24462408 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.9193 4.4847 5.1696' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.5719 3.3456001 4.86915' rotation='0.28285015 0.07255465 -0.24462408 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.4561 2.9659 4.769' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.060175 2.04955 8.781176' rotation='-0.5156166 1.6733103 -0.52989876 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.551125 1.4084501 9.285725' rotation='0.5156166 0.32668966 0.52989876 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.9565 2.229625 8.0658245' rotation='-0.28120372 1.2785764 0.91832435 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.2401 1.9486749 7.139675' rotation='0.28120372 0.7214236 -0.91832435 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3819 1.8082 6.6766' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.040275 2.883175 12.967125' rotation='-0.39902 0.94349474 -0.9151995 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.650825 2.938325 13.860374' rotation='0.39902 1.0565052 0.9151995 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.8325 2.8834 12.251775' rotation='-0.8303074 0.94265187 0.5543471 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.027500004 2.9390001 11.714325' rotation='0.8303084 1.0573481 -0.5543457 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.375 2.9668 11.4456' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.347925 2.513575 10.2531' rotation='-0.49302047 0.69090974 -0.8132614 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.134025 2.8157248 11.0480995' rotation='0.49302128 1.3090907 0.8132607 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.45772502 2.515225 9.417576' rotation='-0.27210388 0.6831933 0.90862143 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.195375 2.8206751 8.541525' rotation='0.27210394 1.3168063 -0.9086216 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.962075 2.16595 6.44125' rotation='-0.9574029 1.2412347 -0.15869936 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.9086251 1.92745 6.5981503' rotation='0.9574029 0.75876534 0.15869936 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.56755 2.91425 11.908674' rotation='-0.38184825 1.1042123 -0.9183309 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.95265 2.80915 12.8348255' rotation='0.38184825 0.8957873 0.9183309 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.4911 2.19895 12.15905' rotation='0.7289504 0.4984997 0.46597078 3.1415927' scale='.15 3.062 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.48944998 3.3484 11.36215' rotation='-0.28117654 0.062499285 0.2050177 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.71834993 4.1116 11.19525' rotation='0.28117654 1.9375007 -0.2050177 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.8328 4.4932 11.1118' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.714925 2.616575 11.367149' rotation='-0.6876498 1.7084861 0.15869857 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.3947749 1.916125 11.21025' rotation='0.6876495 0.2915141 -0.15870047 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.055774987 2.913575 4.516725' rotation='-0.8408989 1.1099108 0.52991384 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.744875 2.808925 4.012175' rotation='0.8408989 0.8900892 -0.52991384 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.1452 2.7566 3.7599' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.219875 2.7957249 5.16745' rotation='-0.47869062 1.3448454 -0.80742615 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.25257498 2.4553752 5.9643497' rotation='0.4786906 0.6551546 0.80742615 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.076875 4.2016 8.113476' rotation='-0.010319092 1.9999137 0.008122071 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.0811 4.611 8.1168' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.068425 3.3828 8.106825' rotation='0.010319092 8.624792E-5 -0.008122071 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.405525 -2.82265 3.4408503' rotation='-0.93072796 0.7011014 -0.21072514 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.0642 -2.9735 3.3345' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.344975 -2.52095 3.6535501' rotation='0.9307278 1.298899 0.2107251 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.8147 -2.3701 3.7599' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.07405 -2.801425 2.899325' rotation='-0.2833253 0.6473552 0.89183426 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.35055 -2.4572752 2.028975' rotation='0.28332528 1.3526453 -0.8918341 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.4888 -2.2852 1.5938' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.80350006 -4.105 0.30045' rotation='-0.28285018 0.07255459 0.24462384 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.9193 -4.4847 0.4006' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.5719 -3.3456001 0.10015' rotation='0.2828502 1.9274454 -0.24462384 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.4561 -2.9659 0.0' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.060175 -2.04955 4.012175' rotation='-0.51561636 0.32669002 -0.5298995 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.551125 -1.4084501 4.516725' rotation='0.51561636 1.67331 0.5298995 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.8325 -2.8834252 7.482775' rotation='-0.83030546 1.0573992 0.5543448 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.027500004 -2.939075 6.945325' rotation='0.83030504 0.9426009 -0.5543455 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.375 -2.9669 6.6766' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.040275 -2.883175 8.198126' rotation='-0.39902 1.0565052 -0.9151995 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.650825 -2.938325 9.091375' rotation='0.39902 0.94349474 0.9151995 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.347925 -2.5135999 5.4841' rotation='-0.49301258 1.309137 -0.81324834 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.134025 -2.8158002 6.2791' rotation='0.4930126 0.690863 0.81324834 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.45772502 -2.51525 4.648575' rotation='-0.2720997 1.3168533 0.9086065 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.195375 -2.82075 3.7725248' rotation='0.2720997 0.6831467 -0.9086065 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.4911 -2.1990001 7.39005' rotation='0.7289385 1.5015249 0.4659629 3.1415927' scale='.15 3.062 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.714925 -2.61665 6.5981503' rotation='-0.68762493 0.2914889 0.15869476 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.3947749 -1.9161501 6.44125' rotation='0.6876248 1.7085111 -0.15869477 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.56755 -2.9143252 7.139675' rotation='-0.3818469 0.895738 -0.9183258 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.95265 -2.809175 8.0658245' rotation='0.3818469 1.104262 0.9183258 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.48944998 -3.348475 6.59315' rotation='-0.2811926 1.9374933 0.2050294 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.71834993 -4.1116247 6.42625' rotation='0.28119296 0.062506616 -0.2050285 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.8328 -4.4932 6.3428' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.219875 -2.7957249 0.39845' rotation='-0.47869053 0.6551547 -0.80742615 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='0.25257498 -2.4553752 1.1953499' rotation='0.47869056 1.3448454 0.8074262 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.076875 -4.201625 3.344475' rotation='-0.010319729 8.624792E-5 0.008121407 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.0811 -4.611 3.3478' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.068425 -3.382875 3.337825' rotation='0.010319718 1.9999138 -0.008121398 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.49955 2.2540998 4.05175' rotation='0.7183585 1.4900354 0.49378765 3.1415927' scale='.15 2.905 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.34515 1.57955 3.7725248' rotation='-0.41041175 0.9227301 -0.9086207 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.543 1.5423 3.3345' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.94945 1.6540501 4.648575' rotation='0.41041175 1.0772699 0.9086207 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.7516 1.6913 5.0866' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.463125 1.33655 2.899325' rotation='-0.16369672 1.4216664 0.89185244 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.303375 0.92505 2.028975' rotation='0.16369672 0.5783336 -0.89185244 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.2235 0.7193 1.5938' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.153275 2.748375 0.30045' rotation='-0.6617721 1.7086704 0.2446303 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.4242 3.0385 0.4006' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.611425 2.1681252 0.10015' rotation='0.6617721 0.29132962 -0.24463029 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.3405 1.878 0.0' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.855675 0.095699996 3.6535501' rotation='-0.20652167 0.044520676 0.21073242 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.9599 -0.3865 3.7599' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.647225 1.0601 3.4408503' rotation='0.20652212 1.9554791 -0.2107324 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.80505 -0.75937504 4.012175' rotation='-0.325257 1.783211 -0.52989477 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.49535 -1.505125 4.516725' rotation='0.32525706 0.21678907 0.5298948 3.1415927' scale='.15 .952 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.407675 2.6164002 7.8395004' rotation='-0.9494891 0.74769354 -0.18657929 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.512025 2.8544002 8.0155' rotation='0.9494891 1.2523065 0.18657929 3.1415927' scale='.15 .943 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.4277251 2.00995 5.0072002' rotation='-0.70219177 0.30913663 0.17214686 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-0.779975 2.64725 4.8484' rotation='0.7021917 1.6908634 -0.17214686 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.53155 1.4933 6.945325' rotation='-0.46484149 0.30959594 -0.55431443 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.0808501 2.1627002 7.482775' rotation='0.46484172 1.6904044 0.5543138 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.5055752 1.291775 6.2791' rotation='-0.5141883 0.7275361 0.8132489 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.002925 1.558125 5.4841' rotation='0.5141883 1.2724639 -0.8132489 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.62355 0.689125 6.5981503' rotation='-0.2697692 1.9497563 0.15870616 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.3568501 -0.24982499 6.44125' rotation='0.2697692 0.050243795 -0.15870616 3.1415927' scale='.15 .989 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.5487 1.5183 8.1073' rotation='0.13974622 1.2414348 0.9603022 3.1415927' scale='.15 2.98 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.64995 -0.19185 7.39005' rotation='0.0698533 0.117967784 0.46598232 3.1415927' scale='.15 3.062 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.3112502 1.588325 0.39845' rotation='-0.059272353 1.5869961 -0.80741715 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.25275 1.008975 1.1953499' rotation='0.059272356 0.41300392 0.80741715 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.919925 1.4337001 6.42625' rotation='-0.95247334 1.2252966 -0.20502673 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-4.3076 1.5254 6.3428' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.144575 1.2502999 6.59315' rotation='0.9524731 0.77470326 0.20502798 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.600275 2.16735 3.344475' rotation='-0.86079234 1.5088916 0.00812122 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-3.9527 2.3757 3.3478' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.8954248 1.7506499 3.337825' rotation='0.86079234 0.49110848 -0.00812122 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.96385 1.6321499 3.337825' rotation='-0.87109303 0.5089489 -0.008121051 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.6072 1.4311 3.3345' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.67715 2.03425 3.344475' rotation='0.8710931 1.4910507 0.008121046 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='4.0338 2.2353 3.3478' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.7019 0.17159998 4.05175' rotation='0.06519801 0.13287425 0.49380392 3.1415927' scale='.15 2.905 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.5107 2.4252248 3.6535501' rotation='-0.7242099 1.6565937 0.21072417 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.2417 1.762475 3.4408503' rotation='0.7242099 0.34340632 -0.21072417 3.1415927' scale='.15 1.009 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.454525 0.23142497 5.0072002' rotation='-0.24723417 1.953539 0.17215863 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3405 0.6712 5.0866' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.6825752 -0.64812505 4.8484' rotation='0.24723414 0.046460927 -0.17215861 3.1415927' scale='.15 .922 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.35085 0.95544994 5.4841' rotation='-0.0211749 0.4184568 -0.8132399 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.37155 1.52395 6.2791' rotation='0.0211749 1.5815432 0.8132399 3.1415927' scale='.15 .978 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.407175 0.86117494 4.648575' rotation='-0.13830657 0.60592705 0.90861315 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.540525 1.241125 3.7725248' rotation='0.13830657 1.394073 -0.90861315 3.1415927' scale='.15 .964 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.000175 1.4463999 1.1953499' rotation='-0.53796834 1.242159 0.8074336 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.7347 1.5659 1.5938' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.531125 1.2074001 0.39845' rotation='0.53796834 0.757841 -0.8074336 3.1415927' scale='.15 .987 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.7966 1.0879 0.0' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='1.952825 1.5322 2.028975' rotation='-0.44702676 1.069065 -0.89185035 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.3890748 1.4648 2.899325' rotation='0.44702658 0.930935 0.8918505 3.1415927' scale='.15 .976 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.6551251 2.0981 6.59315' rotation='-0.67129624 0.2877338 0.20503218 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.201575 2.6778998 6.42625' rotation='0.67129695 1.7122657 -0.20503105 3.1415927' scale='.15 .814 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.4748 2.9678 6.3428' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.55905 1.4456999 6.945325' rotation='-0.36543125 1.7477777 -0.5543362 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.91335 0.7207 7.482775' rotation='0.36543146 0.252222 0.5543355 3.1415927' scale='.15 .97 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='2.58925 1.44805 8.1073' rotation='0.13917662 0.7582616 0.9603085 3.1415927' scale='.15 2.98 .15'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.1833253 1.177475 0.10015' rotation='-0.9446096 0.78120506 -0.24462514 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_3'></Appearance></Shape>
+</Transform>
+<Transform  translation='3.9567752 1.3566251 0.30045' rotation='0.9446096 1.218795 0.24462517 3.1415927' scale='.15 .819 .15'>
+<Shape><IndexedFaceSet USE='_4'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='4.3435 1.4462 0.4006' scale='.152 .152 .152'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_1'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.7215014 4.713775 9.537991' rotation='-0.50000006 1.8660253 7.0084457E-7 3.1415927' scale='.388 10.886 .388'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance DEF='_6'><Material diffuseColor='1 1 1' transparency='0'/></Appearance></Shape>
+</Transform>
+<Transform  translation='-7.1525574E-7 -9.536743E-7 9.537987' scale='.392 .392 .392'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_6'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.4430017 9.427551 9.537994' scale='.392 .392 .392'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_6'></Appearance></Shape>
+</Transform>
+<Transform  translation='5.442999 -5.9604645E-7 9.537987' rotation='1.0 1.0000001 0.0 3.1415927' scale='.388 10.886 .388'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_6'></Appearance></Shape>
+</Transform>
+<Transform  translation='10.885999 -2.3841858E-7 9.537987' scale='.392 .392 .392'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_6'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.443001 9.427552 4.768997' rotation='-1.9997377E-7 0.9999998 1.0 3.1415927' scale='.388 9.538 .388'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_6'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.443 9.427553 0.0' scale='.392 .392 .392'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_6'></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.3841858E-7 9.427553 0.0' rotation='1.0 1.0 0.0 3.1415927' scale='.388 10.886 .388'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_6'></Appearance></Shape>
+</Transform>
+<Transform  translation='5.4429994 9.427553 0.0' scale='.392 .392 .392'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_6'></Appearance></Shape>
+</Transform>
+<Transform  translation='-1.4305115E-6 9.427551 9.537994' rotation='1.0 1.0 0.0 3.1415927' scale='.388 10.886 .388'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_6'></Appearance></Shape>
+</Transform>
+<Transform  translation='5.442999 9.427551 9.537994' scale='.392 .392 .392'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_6'></Appearance></Shape>
+</Transform>
+<Transform  translation='10.885999 -7.1525574E-7 4.7689896' rotation='0.0 1.0000001 1.0 3.1415927' scale='.388 9.538 .388'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_6'></Appearance></Shape>
+</Transform>
+<Transform  translation='10.885999 -1.1920929E-6 -7.6293945E-6' scale='.392 .392 .392'>
+<Shape><IndexedFaceSet USE='_0'/><Appearance USE='_6'></Appearance></Shape>
+</Transform>
+<Transform  translation='8.164499 4.713776 -3.8146973E-6' rotation='-0.49999982 1.8660254 7.008445E-7 3.1415927' scale='.388 10.886 .388'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_6'></Appearance></Shape>
+</Transform>
+<Transform  translation='8.164499 4.7137756 9.537991' rotation='-0.49999997 1.8660254 7.008447E-7 3.1415927' scale='.388 10.886 .388'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_6'></Appearance></Shape>
+</Transform>
+<Transform  translation='5.442999 9.427552 4.768997' rotation='-9.9986885E-8 0.9999998 1.0 3.1415927' scale='.388 9.538 .388'>
+<Shape><IndexedFaceSet USE='_5'/><Appearance USE='_6'></Appearance></Shape>
+</Transform>
+<Transform  translation='-5.9604645E-7 -3.5762787E-7 4.7689896' rotation='-2.4996721E-8 0.9999999 1.0 3.1415927' scale='.388 9.538 .388'>
+<Shape><IndexedFaceSet DEF='_7' creaseAngle='0.5'
+coordIndex='
+71 36 73 -1
+35 34 72 -1
+0 36 71 -1
+35 0 71 -1
+70 71 73 -1
+34 33 72 -1
+35 71 70 -1
+34 35 70 -1
+69 70 73 -1
+33 32 72 -1
+34 70 69 -1
+33 34 69 -1
+68 69 73 -1
+32 31 72 -1
+33 69 68 -1
+32 33 68 -1
+67 68 73 -1
+31 30 72 -1
+32 68 67 -1
+31 32 67 -1
+66 67 73 -1
+30 29 72 -1
+31 67 66 -1
+30 31 66 -1
+65 66 73 -1
+29 28 72 -1
+30 66 65 -1
+29 30 65 -1
+64 65 73 -1
+28 27 72 -1
+29 65 64 -1
+28 29 64 -1
+63 64 73 -1
+27 26 72 -1
+28 64 63 -1
+27 28 63 -1
+62 63 73 -1
+26 25 72 -1
+27 63 62 -1
+26 27 62 -1
+61 62 73 -1
+25 24 72 -1
+26 62 61 -1
+25 26 61 -1
+60 61 73 -1
+24 23 72 -1
+25 61 60 -1
+24 25 60 -1
+59 60 73 -1
+23 22 72 -1
+24 60 59 -1
+23 24 59 -1
+58 59 73 -1
+22 21 72 -1
+23 59 58 -1
+22 23 58 -1
+57 58 73 -1
+21 20 72 -1
+22 58 57 -1
+21 22 57 -1
+56 57 73 -1
+20 19 72 -1
+21 57 56 -1
+20 21 56 -1
+55 56 73 -1
+19 18 72 -1
+20 56 55 -1
+19 20 55 -1
+54 55 73 -1
+18 17 72 -1
+19 55 54 -1
+18 19 54 -1
+53 54 73 -1
+17 16 72 -1
+18 54 53 -1
+17 18 53 -1
+52 53 73 -1
+16 15 72 -1
+17 53 52 -1
+16 17 52 -1
+51 52 73 -1
+15 14 72 -1
+16 52 51 -1
+15 16 51 -1
+50 51 73 -1
+14 13 72 -1
+15 51 50 -1
+14 15 50 -1
+49 50 73 -1
+13 12 72 -1
+14 50 49 -1
+13 14 49 -1
+48 49 73 -1
+12 11 72 -1
+13 49 48 -1
+12 13 48 -1
+47 48 73 -1
+11 10 72 -1
+12 48 47 -1
+11 12 47 -1
+46 47 73 -1
+10 9 72 -1
+11 47 46 -1
+10 11 46 -1
+45 46 73 -1
+9 8 72 -1
+10 46 45 -1
+9 10 45 -1
+44 45 73 -1
+8 7 72 -1
+9 45 44 -1
+8 9 44 -1
+43 44 73 -1
+7 6 72 -1
+8 44 43 -1
+7 8 43 -1
+42 43 73 -1
+6 5 72 -1
+7 43 42 -1
+6 7 42 -1
+41 42 73 -1
+5 4 72 -1
+6 42 41 -1
+5 6 41 -1
+40 41 73 -1
+4 3 72 -1
+5 41 40 -1
+4 5 40 -1
+39 40 73 -1
+3 2 72 -1
+4 40 39 -1
+3 4 39 -1
+38 39 73 -1
+2 1 72 -1
+3 39 38 -1
+2 3 38 -1
+37 38 73 -1
+1 0 72 -1
+2 38 37 -1
+1 2 37 -1
+36 37 73 -1
+0 35 72 -1
+1 37 36 -1
+0 1 36 -1
+'
+>
+<Coordinate point='
+1 .5 0
+.985 .5 .174
+.94 .5 .342
+.866 .5 .5
+.766 .5 .643
+.643 .5 .766
+.5 .5 .866
+.342 .5 .94
+.174 .5 .985
+.0 .5 1
+-.174 .5 .985
+-.342 .5 .94
+-.5 .5 .866
+-.643 .5 .766
+-.766 .5 .643
+-.866 .5 .5
+-.94 .5 .342
+-.985 .5 .174
+-1 .5 .0
+-.985 .5 -.174
+-.94 .5 -.342
+-.866 .5 -.5
+-.766 .5 -.643
+-.643 .5 -.766
+-.5 .5 -.866
+-.342 .5 -.94
+-.174 .5 -.985
+.0 .5 -1
+.174 .5 -.985
+.342 .5 -.94
+.5 .5 -.866
+.643 .5 -.766
+.766 .5 -.643
+.866 .5 -.5
+.94 .5 -.342
+.985 .5 -.174
+.996 -.5 .087
+.966 -.5 .259
+.906 -.5 .423
+.819 -.5 .574
+.707 -.5 .707
+.574 -.5 .819
+.423 -.5 .906
+.259 -.5 .966
+.087 -.5 .996
+-.087 -.5 .996
+-.259 -.5 .966
+-.423 -.5 .906
+-.574 -.5 .819
+-.707 -.5 .707
+-.819 -.5 .574
+-.906 -.5 .423
+-.966 -.5 .259
+-.996 -.5 .087
+-.996 -.5 -.087
+-.966 -.5 -.259
+-.906 -.5 -.423
+-.819 -.5 -.574
+-.707 -.5 -.707
+-.574 -.5 -.819
+-.423 -.5 -.906
+-.259 -.5 -.966
+-.087 -.5 -.996
+.087 -.5 -.996
+.259 -.5 -.966
+.423 -.5 -.906
+.574 -.5 -.819
+.707 -.5 -.707
+.819 -.5 -.574
+.906 -.5 -.423
+.966 -.5 -.259
+.996 -.5 -.087
+0 .5 0
+0 -.5 0
+'/>
+</IndexedFaceSet>
+<Appearance DEF='_8'><Material diffuseColor='0 0 1' transparency='0'/></Appearance></Shape>
+</Transform>
+<Transform  translation='-2.7215002 4.7137766 -3.8146973E-6' rotation='-0.4999999 1.8660254 7.0084457E-7 3.1415927' scale='.388 10.886 .388'>
+<Shape><IndexedFaceSet USE='_7'/><Appearance DEF='_9'><Material diffuseColor='0 .504 0' transparency='0'/></Appearance></Shape>
+</Transform>
+<Transform  translation='5.442999 -4.7683716E-7 -7.6293945E-6' rotation='1.0 0.9999999 0.0 3.1415927' scale='.388 10.886 .388'>
+<Shape><IndexedFaceSet USE='_7'/><Appearance DEF='_10'><Material diffuseColor='1 0 0' transparency='0'/></Appearance></Shape>
+</Transform>
+</Transform>
+</Transform>
+</Scene>
+</X3D>
