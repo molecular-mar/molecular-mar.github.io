@@ -1,5 +1,7 @@
 ---
 layout: single
+type: pages
+author_profile: true
 title: Mini Taller
 permalink: /talleres/modelos3D
 ---
