@@ -9,6 +9,9 @@ permalink: /talleres/modelos3D
 
 **Impartido en el marco del 45 aniversario del [Departamento de Química](http://quimica.izt.uam.mx/) de la UAM-Iztapalapa.**
 
+## Grabación del taller (20/Octubre/2022)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/soc1CJe7yjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ![Modelo de fragmento de un MOF con moléculas de benceno](/images/portada8.png "Portada del taller")
 
 Aquí encontrarás los recursos utilizados durante el taller.
