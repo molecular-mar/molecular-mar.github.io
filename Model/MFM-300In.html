@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>3D Model Viewer Demo</title>
-    <meta charset="UTF-8" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>MFM-300(In) fragment</title>
     <script
       type="module"
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
@@ -11,7 +16,7 @@
       model-viewer {
         cursor: grab;
         display: flex;
-        height: 100vh;
+        height: 80vh;
         width: 100%;
         overflow: hidden;
         position: relative;
@@ -20,8 +25,25 @@
     </style>
   </head>
   <body>
-	<model-viewer bounds="tight" enable-pan src="../models3D/mfmIn_clear_small.glb" skybox-image="../models3D/paul_lobe_haus_2k.hdr"  ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1">
-	</model-viewer>
+    <div class="container py-4">
+      <div class="p-3 mb=4 bg-light rounded-5">
+        <div class="container-fluid py-3">
+	        <model-viewer 
+            bounds="tight" 
+            style="height: 80vh"
+            enable-pan 
+            src="../models3D/mfmIn_clear.glb" 
+            skybox-image="../models3D/uamPlaza.hdr"  
+            ar ar-modes="scene-viewer webxr quick-look"  
+            camera-controls 
+            environment-image="neutral" 
+            poster="poster.webp" 
+            shadow-intensity="1">
+	        </model-viewer>
+          <h1>Fragment of MFM-300(In)</h1>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
 
