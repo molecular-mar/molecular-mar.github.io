@@ -18,21 +18,22 @@ permalink: /talleres/pythonQ
 ---
 *Basado en el material creado por Charles J. Weiss.*
 
-Página del proyecto: https://weisscharlesj.github.io/SciCompforChemists/intro.html
+Página del proyecto: <https://weisscharlesj.github.io/SciCompforChemists/intro.html>
 
-Repositorio: https://github.com/weisscharlesj/SciCompforChemists
+Repositorio: <https://github.com/weisscharlesj/SciCompforChemists>
 
-Artículo https://pubs.acs.org/doi/10.1021/acs.jchemed.0c01071
+Artículo: <https://pubs.acs.org/doi/10.1021/acs.jchemed.0c01071>
+
 ---
 
 Aquí encontrarás los notebooks utilizados durante el taller.
 
 * **Notebook 1**: Fundamentos de Python
-  * Enlace: https://github.com/molecular-mar/ws_python_quimica/blob/main/PythonQuimiK1.ipynb
+  * Enlace: <https://github.com/molecular-mar/ws_python_quimica/blob/main/PythonQuimiK1.ipynb>
 * **Notebook 2**: Paquetes básicos
-  * Enlace: https://github.com/molecular-mar/ws_python_quimica/blob/main/PythonQuimiK2.ipynb 
+  * Enlace: <https://github.com/molecular-mar/ws_python_quimica/blob/main/PythonQuimiK2.ipynb>
 * **Notebook 3**: Paquetes de Química
-  * Enlace: https://github.com/molecular-mar/ws_python_quimica/blob/main/PythonQuimiK3.ipynb 
+  * Enlace: <https://github.com/molecular-mar/ws_python_quimica/blob/main/PythonQuimiK3.ipynb> 
 
 *Pensado para su ejecución en [Google Colab](colab.research.google.com/).*
  
