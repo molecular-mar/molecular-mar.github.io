@@ -15,6 +15,10 @@ permalink: /talleres/pythonQ
 
 ![](https://drive.google.com/uc?id=1plp-jwWtq6rOMZDBVonAsO3fraqJeZDJ)
 
+## Grabación del taller (03/Noviembre/2022)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qsNqhLPGlXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ---
 *Basado en el material creado por Charles J. Weiss.*
 
