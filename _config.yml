@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Marcos Rivera-Almazo"
   avatar           : "/images/SanMiguelyo.jpg"
-  bio              : "PhD candidate on Computational Chemistry @  **UAM-I**, Mexico."
+  bio              : "Computer Scientist (Chemistry) @  **UAM-I**, Mexico."
   location         : "Mexico"
   email            : "marcos.almazo19@gmail.com"
   links:
@@ -282,5 +282,3 @@ defaults:
       comments: # true
       share: true
       related: true
-
-
