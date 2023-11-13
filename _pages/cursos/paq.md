@@ -16,7 +16,7 @@ permalink: /cursos/paq
 
 Programa:
 
-[Trimestre 23-O](/cursos/paq/Planeacion_PAQ.pdf)
+[Trimestre 23-O](/pdfs/Planeacion_PAQ.pdf)
 
 
 Aquí encontrarás las libretas de Jupyter/Google Colab utilizadas durante el curso:
