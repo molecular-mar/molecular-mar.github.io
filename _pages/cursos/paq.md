@@ -18,14 +18,13 @@ Programa:
 
 
 
-Aquí encontrarás los Notebooks utilizados durante el curso:
+Aquí encontrarás las libretas de Jupyter utilizadas durante el curso:
 
-* **Notebook 1**: Fundamentos de Python
+* **Semana 1**: Introducción al cómputo científico.
+  * *Notebook 1.1*: Programas y lenguajes de programación.
+  * *Notebook 1.2*: Jupyter Notebooks y Google Colab.
+  * *Notebook 1.3*: Comandos básicos de UNIX.
   * Enlace: <https://github.com/molecular-mar/ws_python_quimica/blob/main/PythonQuimiK1.ipynb>
-* **Notebook 2**: Paquetes básicos
-  * Enlace: <https://github.com/molecular-mar/ws_python_quimica/blob/main/PythonQuimiK2.ipynb>
-* **Notebook 3**: Paquetes de Química
-  * Enlace: <https://github.com/molecular-mar/ws_python_quimica/blob/main/PythonQuimiK3.ipynb>
 
 *Pensado para su ejecución en [Google Colab](colab.research.google.com/).*
 
