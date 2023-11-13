@@ -12,6 +12,8 @@ main:
     url: /models/
   - title: "Talleres"
     url: /talleres/
+  - title: "Cursos"
+    url: /cursos/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
