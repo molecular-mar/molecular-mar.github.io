@@ -22,7 +22,7 @@ Programa:
 Aquí encontrarás las libretas de Jupyter/Google Colab utilizadas durante el curso:
 
 * **Semana 1**: Introducción al cómputo científico.
-  * *[Notebook 1.1](colabs/paq/Sesion1_PAQ.ipynb)*: Programas y lenguajes de programación.
+  * *[Notebook 1.1](https://github.com/molecular-mar/molecular-mar.github.io/blob/master/colabs/paq/Sesion1_PAQ.ipynb)*: Programas y lenguajes de programación.
   * *Notebook 1.2*: Jupyter Notebooks y Google Colab.
 
 
