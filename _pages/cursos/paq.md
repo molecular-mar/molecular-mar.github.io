@@ -16,17 +16,15 @@ permalink: /cursos/paq
 
 Programa:
 
+[Trimestre 23-O](/cursos/paq/Planeacion_PAQ.pdf)
 
 
-Aquí encontrarás las libretas de Jupyter utilizadas durante el curso:
+Aquí encontrarás las libretas de Jupyter/Google Colab utilizadas durante el curso:
 
 * **Semana 1**: Introducción al cómputo científico.
   * *Notebook 1.1*: Programas y lenguajes de programación.
   * *Notebook 1.2*: Jupyter Notebooks y Google Colab.
-  * *Notebook 1.3*: Comandos básicos de UNIX.
-  * Enlace: <https://github.com/molecular-mar/ws_python_quimica/blob/main/PythonQuimiK1.ipynb>
 
-*Pensado para su ejecución en [Google Colab](colab.research.google.com/).*
 
 ## ¡Espero lo encuentres útil!
 
