@@ -24,7 +24,7 @@ Aquí encontrarás las libretas de Jupyter/Google Colab utilizadas durante el cu
 * **Semana 1**: Introducción al cómputo científico.
   * *[Notebook 1.1](https://github.com/molecular-mar/molecular-mar.github.io/blob/master/colabs/paq/Sesion1_PAQ.ipynb)*: Programas y lenguajes de programación.
   * *[Notebook 1.2](https://github.com/molecular-mar/molecular-mar.github.io/blob/master/Sesion1_2_PAQ.ipynb)*: Jupyter Notebook, Google Colab y formato Markdown.
-  * *[Notebook 2.1](https://github.com/molecular-mar/molecular-mar.github.io/blob/master/Sesion2_1_PAQ.ipynb)*: Jupyter Notebook, Google Colab y formato Markdown.
+  * *[Notebook 2.1](https://github.com/molecular-mar/molecular-mar.github.io/blob/master/Sesion2_1_PAQ.ipynb)*: Aritmética.
 
 
 ## ¡Espero lo encuentres útil!
