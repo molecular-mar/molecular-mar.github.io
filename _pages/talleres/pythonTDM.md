@@ -3,7 +3,7 @@ layout: single
 type: pages
 author_profile: true
 title: Python TDM 2023
-permalink: /talleres/pythonQ
+permalink: /talleres/pythonTDM
 ---
 
 # ¡Bienvenido a Python en Química Computacional: análisis de datos y visualización molecular!
