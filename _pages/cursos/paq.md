@@ -18,6 +18,14 @@ Programa:
 
 [Trimestre 23-O](/pdfs/Planeacion_PAQ.pdf)
 
+Rubrica del portafolio:
+
+[Trimestre 23-O](/pdfs/rubrica_paq.pdf)
+
+
+**Las entregas deben de realizarse por medio del aula virtual en [VIRTUAMI](https://virtuami.izt.uam.mx/aulas/avmacca/course/view.php?id=1227).**
+
+---
 
 Aquí encontrarás las libretas de Jupyter/Google Colab utilizadas durante el curso:
 
@@ -25,11 +33,12 @@ Aquí encontrarás las libretas de Jupyter/Google Colab utilizadas durante el cu
   * *[Notebook 1.1](https://github.com/molecular-mar/molecular-mar.github.io/blob/master/colabs/paq/Sesion1_PAQ.ipynb)*: Programas y lenguajes de programación.
   * *[Notebook 1.2](https://github.com/molecular-mar/molecular-mar.github.io/blob/master/Sesion1_2_PAQ.ipynb)*: Jupyter Notebook, Google Colab y formato Markdown.
   * *[Notebook 2.1](https://github.com/molecular-mar/molecular-mar.github.io/blob/master/Sesion2_1_PAQ.ipynb)*: Aritmética.
+* **Semana 2**: Fundamentos de programación I.
+  * *[Notebook 3.1](https://github.com/molecular-mar/molecular-mar.github.io/blob/master/Sesion3_1_PAQ.ipynb)*: Variables.
 
 
 ## ¡Espero lo encuentres útil!
 
 ---
-### Referencias
 
-Charles J. Weiss, *A Creative Commons Textbook for Teaching Scientific Computing to Chemistry Students with Python and Jupyter Notebooks*, J. Chem. Educ., 2021, 98 (2), 489-494. DOI: [10.1021/acs.jchemed.0c01071](https://pubs.acs.org/doi/10.1021/acs.jchemed.0c01071)
+### Contacto: mrivera@izt.uam.mx
