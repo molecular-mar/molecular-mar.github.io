@@ -37,6 +37,7 @@ Aquí encontrarás las libretas de Jupyter/Google Colab utilizadas durante el cu
   * *[Notebook 3.1](https://github.com/molecular-mar/molecular-mar.github.io/blob/master/Sesion3_1_PAQ.ipynb)*: Variables.
 * **Semana 3**: Fundamentos de programación II.
   * *[Notebook 4.1](https://github.com/molecular-mar/molecular-mar.github.io/blob/master/Sesion4_1_PAQ.ipynb)*: Listas.
+  * [*Tarea 2 del Notebook 4.1*](/pdfs/TareaExPAQS3.pdf): Álgebra lineal.
 
 
 ## ¡Espero lo encuentres útil!.
