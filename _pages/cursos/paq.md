@@ -40,7 +40,7 @@ Aquí encontrarás las libretas de Jupyter/Google Colab utilizadas durante el cu
   * [*Tarea 2 del Notebook 4.1*](/pdfs/TareaExPAQS3.pdf): Álgebra lineal.
 * **Semana 4**: Fundamentos de programación II.
   * *[Notebook 5.1](https://github.com/molecular-mar/molecular-mar.github.io/blob/master/Sesion5_1_PAQ.ipynb)*: Ciclos.
-  * *[Notebook 6.1]*():Condicionales.
+  * *[Notebook 6.1](https://github.com/molecular-mar/molecular-mar.github.io/blob/master/Sesion6_1_PAQ.ipynb)*:Condicionales.
 
 
 ## ¡Espero lo encuentres útil!.
