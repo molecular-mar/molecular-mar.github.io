@@ -2,11 +2,11 @@
 layout: single
 type: pages
 author_profile: true
-title: Programación aplicada a la Química - 24-I
+title: Programación aplicada a la Química - 23-O
 permalink: /cursos/paq
 ---
 
-# ¡Bienvenid@ al curso Programación Aplicada a la Química!
+# ¡Bienvenido al curso Programación aplicada a la Química!
 
 ![](https://drive.google.com/uc?id=12Ab7Vo_dgdyxe4A3HAoxglBtT6JPaCaH)
 
@@ -16,11 +16,11 @@ permalink: /cursos/paq
 
 Programa:
 
-[Trimestre 24-I](/pdfs/Planeacion_PAQ.pdf)
+[Trimestre 23-O](/pdfs/Planeacion_PAQ.pdf)
 
 Rubrica del portafolio:
 
-[Trimestre 24-I](/pdfs/rubrica_paq.pdf)
+[Trimestre 23-O](/pdfs/rubrica_paq.pdf)
 
 
 **Las entregas deben de realizarse por medio del aula virtual en [VIRTUAMI](https://virtuami.izt.uam.mx/aulas/avmacca/course/view.php?id=1227).**
