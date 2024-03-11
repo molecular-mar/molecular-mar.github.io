@@ -3,7 +3,7 @@ layout: single
 type: pages
 author_profile: true
 title: Programación aplicada a la Química - 23-O
-permalink: /cursos/paq
+permalink: /cursos/paq23O
 ---
 
 # ¡Bienvenido al curso Programación aplicada a la Química!
