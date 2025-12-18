@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Marcos Rivera-Almazo"
+title                    : "Molecular Mar"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Marcos Rivera-Almazo"
-description              : "Blog from a computational chemist in process of virtual combustion."
+name                     : "Molecular Mar"
+description              : "A sea of chemistry is beneath our eyes. A Computational Chemistry journey."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Marcos Rivera-Almazo"
   avatar           : "/images/SanMiguelyo.jpg"
-  bio              : "Computer Scientist (Chemistry) @  **UAM-I**, Mexico."
+  bio              : "Computer Scientist (Chemistry) synthesized @ **UAM-I**, Mexico."
   location         : "Mexico"
   email            : "marcos.almazo19@gmail.com"
   links:
